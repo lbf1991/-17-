@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1615021868958'); /* IE9 */
+  src: url('iconfont.eot?t=1615021868958#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOwAAsAAAAAB8wAAANiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDMIMNATYCJAMMCwgABCAFhG0HOxvYBhHVm6PIfhbYMW3IbD1/g23FpUv3aKRF0r4vggDzvp80ab0gbrsfJk+CT3pL27qGlLSQsEh969pPdoaPYQFQD+r/czm9a4jP37ac5hh+1AswDiigsTZFiRZIhLG3yC7iTF7UfgjAIZ5cRPmK1etjoUDDBCC6d+nUBitnRLVUCiwERs1chZiNjqVN0S4hmBV+XnykERZo6BI0tnbHCu0p/abmu+NytG90c44gms4OaItAArmAAtGy1tkYGSdzkTiOUrUXGigE2lQRny8Uumpjo388DYQBKvcAyBT1GhclolwIeHdcIKq4fjcYUnoKnJa0oUPPUrFx0fGe1+z27Qa37zZaNG1J6K1bDe/caegsXBiRZQlrsGB+aK9Od27Vn79+49KIu3cbgF7nTlsQWn9+eMOFi9xujZYdc/2mHYlq4F64naStvlXe/+KdZLnubqUGztTNkdqSLW7AtG0xculWx5m6sLvd8aYO089vMqL97t1GI/GX+lXTju0as/No+v5ro68f7BDUZea8zqFdgo/VL9Sse/yHYaW7PmgzNHxI9LqdwUMLta5WvnqNAR1q1Miv1rp9daf3zLU9I3uFnmtRoF3jtKy2VUr2e9FtTOSo2PUnnHEFTFh7E29URNVO3aMyo7p3inLLBpYpE7QtiFkDu8aDmpRqGv5F36Z/Ce8atmvq/mnjWmeYmWaG0qbon6vzy9GkqSiH9U2aMJlQhen8puVKRh9enrf88OzRDes0oDVomDwtc8BXbpP/7zt8P8XXSvHflqsAeNSlc24Y8FXAzVh35xLwt0TAGuVKkEkqW0iFvktSO+NHAzHkAP+oGiCYJ8PVYeByEFiEpaBhEgcSi1RUEXNBxyUfDCxKgUMOlRa7hNAXiVA2kM0EAQSB7AINf06BJJDLqCI+Bp1wPoNBoJDg0FCErOmSLtSQ3wglowF1QdDTaImF86jyjW7rJWUlIemPtIYI1EVVzLxwRJpiwrq7htmCpWmAp3AY9v0EM00RNReeeW7L0tY9qdDTIHJuhJLRgLog6Gm0vDHnpfe/0W29pBZMh/ePtIbWoS4qAPpSjiDMrTyy7q5htmBpGuAp2LHHyQnm+l4RNRd+QHxuS6mehSqL5dXD+20CHNB4KTQhhSLp5zd5hjGhhXJ0MQgBAAA=') format('woff2'),
+  url('iconfont.woff?t=1615021868958') format('woff'),
+  url('iconfont.ttf?t=1615021868958') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1615021868958#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shuaxin:before {
+  content: "\e64e";
+}
+
+.icon-xiangji:before {
+  content: "\e8bc";
+}
+

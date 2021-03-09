@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: block;
+            width: 1300px;
+            height: 700px;
+            margin-bottom: 8px;
+            margin: auto;
+        }
+
+        .top {
+            height: 58px;
+            width: 1226px;
+            position: relative;
+        }
+
+        .see-more {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 92px;
+            height: 58px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        h2 {
+            font-weight: lighter;
+        }
+
+        .bottom {
+            height: 628px;
+            width: 1250px;
+            display: inline-block;
+        }
+
+        .left {
+            float: left;
+            height: 628px;
+            width: 234px;
+        }
+
+        a:hover img {
+            transform: scale(1.005, 1.005);
+        }
+
+        .right {
+            width: 978px;
+            height: 628px;
+            margin-left: 14px;
+            float: left;
+
+        }
+
+        .r1,
+        .r2,
+        .r3,
+        .r4,
+        .r5,
+        .r6,
+        .r7,
+        .r8 {
+            display: inline-block;
+            width: 234px;
+            height: 300px;
+        }
+
+        .small-img {
+            margin: 0 auto 18px;
+        }
+
+        img {
+            border: 0;
+            width: 160px;
+            height: 160px;
+            margin: 0 37px 18px;
+        }
+
+        #long {
+            height: 628px;
+            width: 234px;
+            margin-right: 0%;
+            margin-left: 0%;
+        }
+
+        h3,
+        .desc {
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 400;
+            margin: 0 10px 2px;
+        }
+
+        .desc {
+            height: 18px;
+            font-size: 12px;
+            color: #b0b0b0;
+        }
+
+        .price {
+            text-align: center;
+            color: #ff6700;
+            margin: 0 10px 14px;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- style="background-color: lightsteelblue;" -->
+    <div class="box">
+        <div class="top">
+            <h2>手机</h2>
+            <div class="see-more">
+                <a href="http://" class="more-link" target="_blank">查看全部
+                    <i class="arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <img id="long" src="./左.png" alt="小米11">
+            </div>
+            <div class="right">
+                <div class="r1">
+                    <div class="small-img">
+                        <a href="#">
+                            <img src="./1.png" alt="红米K40 Pro"></a>
+                    </div>
+                    <h3 class="title">Redmi K40 Pro 系列</h3>
+                    <p class="desc">骁龙888 / E4 旗舰直屏</p>
+                    <p class="price">
+                        <span class="num">2799</span>元
+                        <span>起</span>
+                    </p>
+                </div>
+                <div class="r2">
+                    <div class="small-img">
+                        <img src="./2.png" alt="红米K40">
+                    </div>
+                    <h3 class="title">Redmi K40</h3>
+                    <p class="desc">骁龙870，新一代 E4 AMOLED旗舰直屏</p>
+                    <p class="price">
+                        <span class="num">1999</span>元
+                        <span>起</span>
+                    </p>
+                </div>
+                <div class="r3">
+                    <div class="small-img">
+                        <img src="./3.png" alt="小米11">
+                    </div>
+                    <h3 class="title">小米11</h3>
+                    <p class="desc">骁龙888 | 2K四曲面屏</p>
+                    <p class="price">
+                        <span class="num">3999</span>元
+                        <span>起</span>
+                    </p>
+                </div>
+                <div class="r4">
+                    <div class="small-img">
+                        <img src="./4.png" alt="小米10">
+                    </div>
+                    <h3 class="title">小米11</h3>
+                    <p class="desc">骁龙865/1亿像素相机</p>
+                    <p class="price">
+                        <span class="num">3399</span>元
+                        <span>起</span>
+                        <del style="color: #b0b0b0;">
+                            <span class="num">3999</span>元
+                        </del>
+                    </p>
+                </div>
+                <div class="r5">
+                    <div class="small-img">
+                        <img src="./5.png" alt="note9 Pro">
+                    </div>
+                    <h3 class="title">Note 9 Pro</h3>
+                    <p class="desc">一亿像素夜景相机，120Hz六档变速高刷屏</p>
+                    <p class="price">
+                        <span class="num">1599</span>元
+                        <span>起</span>
+                    </p>
+                </div>
+                <div class="r6">
+                    <div class="small-img">
+                        <img src="./6.png" alt="note9">
+                    </div>
+                    <h3 class="title">Note 9</h3>
+                    <p class="desc">天玑 800U处理器，5000mAh电池，</p>
+                    <p class="price">
+                        <span class="num">1299</span>元
+                        <span>起</span>
+                    </p>
+                </div>
+                <div class="r7">
+                    <div class="small-img">
+                        <img src="./7.png" alt="note9 4G">
+                    </div>
+                    <h3 class="title">Note 9 4G</h3>
+                    <p class="desc">6000mAh长续航</p>
+                    <p class="price">
+                        <span class="num">999</span>元
+                        <span>起</span>
+                    </p>
+                </div>
+                <div class="r8">
+                    <div class="small-img">
+                        <img src="./8.png" alt="红米9A">
+                    </div>
+                    <h3 class="title">Redmi 9A</h3>
+                    <p class="desc">5000mAh长循环大电量，6.53"超大护眼屏幕</p>
+                    <p class="price">
+                        <span class="num">499</span>元
+                        <span>起</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

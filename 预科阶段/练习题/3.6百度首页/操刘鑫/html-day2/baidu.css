@@ -1,0 +1,206 @@
+#main{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 730px;
+    position: relative;
+}
+#top{
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+.top-left{
+    width: 500px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-left: 33px;
+    display: inline-block;
+    line-height: 60px;
+}
+.top-left a{
+    text-align: center;
+    margin-right: 33px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.top-left a:hover{
+    color: blue;
+}
+.top-right{
+    width: 130px;
+    height: 60px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding-right: 33px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+}
+#blue{
+    width: 48px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.top-right a{
+    text-align: center;
+    margin-right: 17px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.top-right a:hover{
+    color: blue;
+}
+.top-right a[name="q"]{
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+}
+.middle{
+    width:300px;
+    height: 100px;
+    background-image: url(../img/百度.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 164px;
+    left: 617px;
+}
+.middle1{
+    width:650px;
+    height: 45px;
+    position: absolute;
+    top: 280px;
+    left: 442px;
+    border: 2px solid 	#dcdcdc;
+    border-radius: 15px;
+}
+.middle1-left{
+    width:550px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.middle1-left input{
+    width:550px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.middle1-right{
+    width:100px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.middle1-right input{
+    width:100px;
+    height: 46px;
+    top: 0;
+    padding: 0;
+    border: none;
+    color: white;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: center;
+    background-color: blue;
+}
+.middle2{
+    width:650px;
+    height: 45px;
+    position: absolute;
+    top: 380px;
+    left: 442px;
+}
+.middle2 a[name="w"]{
+    height: 45px;
+    line-height: 45px;
+    left: 0;
+    margin-right: 530px;
+    text-decoration: none;
+    color: black;
+}
+.middle2 a[name="e"]{
+    height: 45px;
+    line-height: 45px;
+    color: 	#8b8989;
+    text-decoration: none;
+}
+.middle2 a[name="e"]:hover{
+    color: blue;
+}
+.bottom{
+    width:650px;
+    height: 150px;
+    position: absolute;
+    top: 414px;
+    left: 443px;
+    background-color: 	#fffff0;
+}
+.bottom-left{
+    width: 325px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+}
+.bottom-left a:hover{
+    color: #8a2be2;
+}
+.bottom-right{
+    width: 325px;
+    height: 50px;
+    line-height: 50px;
+    list-style-type: none;
+    margin-left: 413px;
+    position: absolute;
+}
+.bottom-right a:hover{
+    color: #8a2be2;
+}
+.wy{
+    background-color: 	#f0fff0;
+    width: 100%;
+    height: 30px;
+    position:absolute;
+    top:700px;
+}
+.wy-left{
+    width: 500px;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    line-height: 30px;
+}
+.wy-left a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+.wy-right{
+    width: 500px;
+    height: 30px;
+    left: 1034px;
+    position: absolute;
+    display: inline-block;
+    line-height: 30px;
+}
+.wy-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+.wy a:hover{
+    color: #8a2be2;
+}

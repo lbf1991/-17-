@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+
+.box .biaoti {
+    width: 1300px;
+    height: 70px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+.box .biaoti ul li {
+    list-style: none;
+}
+
+.box .biaoti ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.box .biaoti ul .zuobiaoti a {
+    float: left;
+}
+
+.box .biaoti ul .youbiaoti a {
+    float: right;
+}
+
+.box .herage {
+    height: 650px;
+    width: 1300px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.box .zuotupian {
+    height: 650px;
+    width: 250px;
+    /* border: 1px solid black; */
+}
+
+.box .zuotupian img {
+    height: 650px;
+    width: 250px;
+}
+
+.box .herage .youshang {
+    width: 1040px;
+    height: 320px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0;
+    left: 260px;
+}
+
+.box .herage .youshang div {
+    height: 320px;
+    width: 250px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 8px;
+    background-color: #fff;
+}
+
+.box .herage .youshang img {
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+}
+
+.box .herage .youshang div ul li {
+    list-style: none;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.box .herage .youshang div ul li a {
+    text-decoration: none;
+}
+
+.box .herage .youshang div ul .youshangwenzi2 {
+    font-size: 13px;
+    color: darkgrey;
+}
+
+.box .herage .youshang div ul .youshangwenzi3 {
+    color: darkorange;
+}
+
+.box .herage .youxia {
+    width: 1040px;
+    height: 320px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 325px;
+    left: 260px;
+}
+
+.box .herage .youshang div ul .youshangwenzi2 {
+    font-size: 13px;
+    color: darkgrey;
+}
+
+.box .herage .youshang div ul .youshangwenzi3 {
+    color: darkorange;
+}
+
+.box .herage .youxia div {
+    height: 320px;
+    width: 250px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 8px;
+    background-color: #fff;
+}
+
+.box .herage .youxia div ul li {
+    list-style: none;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.box .herage .youxia img {
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+}
+
+.box .herage .youxia div ul .youshangwenzi2 {
+    font-size: 13px;
+    color: darkgrey;
+}
+
+.box .herage .youxia div ul .youshangwenzi3 {
+    color: darkorange;
+}
+
+.herage .zuotupian a img:hover {
+    box-shadow: 4px 20px 40px 5px rgba(0, 0, 0, .1);
+    margin-bottom: 2px;
+}
+
+.herage .youshang div:hover {
+    box-shadow: 4px 20px 40px 5px rgba(0, 0, 0, .1);
+    margin-bottom: 4px;
+}
+
+.herage .youxia div:hover {
+    box-shadow: 4px 20px 40px 5px rgba(0, 0, 0, .1);
+    margin-top: 2px;
+}
+
+.biaoti ul .youbiaoti a:hover {
+    color: coral;
+}

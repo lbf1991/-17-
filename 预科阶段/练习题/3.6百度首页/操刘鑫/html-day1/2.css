@@ -1,0 +1,62 @@
+#main{
+    /*居中显示*/
+    margin: 0 auto;
+    /*设置最大的div的宽和高*/
+    width: 1700px;
+    height: 800px;
+    /*设置背景图相对定位,相对于元素本身的位置*/
+    position: relative;
+    /*background-size:contain*/
+    /*background-size: 100% 100%;设置背景图片大小和div尺寸一样*/
+    /*position: fixed;固定点位,相对于游览器窗口
+    bottom:0;距离游览器窗口底部0px;
+    left: 50%;左边框居中
+    margin-left: -950px; 利用外边距调整后,实现main居中*/
+}
+.dfc{
+    height: 300px;
+    width: 300px;
+    
+}
+.dfc img{
+    position: absolute;
+    top:156px;
+    left: 356px;
+    animation: oh 2s linear forwards;
+    animation-iteration-count: infinite;
+}
+.dfc1{
+    height: 100px;
+    width: 100px;
+    
+}
+.dfc1 img{
+    position: absolute;
+    top:451px;
+    left: 718px;
+    animation: oh 2s linear forwards;
+    animation-iteration-count: infinite;
+}
+.dfc2{
+    height: 200px;
+    width: 200px;
+    
+}
+.dfc2 img{
+    position: absolute;
+    top:331px;
+    left: 883px;
+    animation: oh 2s linear forwards;
+    animation-iteration-count: infinite;
+}
+#ge{
+    position: absolute;
+    top: 645px;
+    left: 1211px;
+}
+@keyframes oh{
+    from{}
+    to{
+        transform: rotateZ(360deg);
+    }
+}

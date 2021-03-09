@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            /* display 属性可以改变 是块元素 行元素 行内元素 */
+            /*  div 只是默认是块元素  */
+
+            /* margin:  0 auto; */
+            text-align: center;
+               /* 边框合并 */
+            border-collapse: collapse;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- table 块元素 表示一个表格 -->
+    <!-- border 设置表格的边框  -->
+    <!-- align = "center" 表格居中 -->
+    <table border="1" width="400px"  height= "200px"  align="center" >
+        <!--  tr 表格里面的行 -->
+        <tr>
+            <!-- td 行中的列 -->
+            <td>    </td>
+            <td>周一 </td>
+            <td>周二</td>
+            <td>周三</td>
+            <td>周四</td>
+            <td>周五</td>
+            <td>周六</td>
+        </tr>
+        <tr>
+            <td>上午</td>
+            <td>h5</td>
+            <td>css</td>
+            <td>js</td>
+            <td>jQuery</td>
+            <td>vue</td>
+            <td rowspan="2">高尔夫</td>
+
+        </tr>
+
+        <tr>
+             <td>下午</td>
+             <!-- colspan 跨列 -->
+             <td colspan="2">篮球</td>
+         
+             <td>乒乓球</td>
+             <td>羽毛球</td>
+             <td>橄榄球</td>
+           
+
+        </tr>
+
+    </table>
+</body>
+
+</html>

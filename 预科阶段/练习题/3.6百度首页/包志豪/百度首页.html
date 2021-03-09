@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .page {
+        position: relative;
+        padding-bottom: 0;
+        height: 100%;
+        min-height: 600px;
+    }
+
+    .top-wrap {
+        min-width: 1000px;
+        width: 100%;
+        /* background-color: aqua; */
+        /* height: 50px; */
+        z-index: 99;
+        position: relative;
+    }
+
+    .top-left {
+        left: 0;
+        top: 0;
+        z-index: 100;
+        height: 60px;
+        padding-left: 24px;
+    }
+
+    .mnav {
+        margin-right: 31px;
+        margin-top: 19px;
+        display: inline-block;
+        font-size: 10px;
+    }
+
+    .top-right {
+        top: 0;
+        right: 0;
+        height: 60px;
+        padding-right: 24px;
+        position: absolute;
+        /* background-color: blueviolet; */
+        z-index: 100;
+
+    }
+
+    .s-top-right {
+        margin-left: 32px;
+        margin-top: 19px;
+        display: inline-block;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .top-right-bth {
+        display: inline-block;
+        margin-top: 18px;
+        margin-left: 32px;
+        font-size: 13px;
+        background-color: blue;
+        width: 48px;
+        height: 24px;
+        text-align: center;
+        border-radius: 6px;
+        line-height: 24px;
+        color: #fff;
+    }
+
+
+
+    .head-wrapper {
+        width: auto;
+        padding-bottom: 370px;
+        position: relative;
+        height: 40%;
+        min-height: 314px;
+        max-height: 510px;
+        /* width: 1000px; */
+        margin: 0 auto;
+        /* position: relative;
+        height: 40%;
+        min-height: 314px;
+        max-height: 510px;
+        width: 1000px;
+        margin: 0 auto; */
+        /* background-color: bisque; */
+    }
+
+    .s-from {
+        position: relative;
+
+        width: 654px;
+        height: 295px;
+        margin: 0 auto;
+        text-align: left;
+        z-index: 100;
+        /* width: 654px;
+        height: 100%;
+        margin: 0 auto;
+        text-align: left;
+        position: relative;
+        z-index: 1; */
+    }
+
+    .s-from-wrapper {
+        height: 100%;
+    }
+
+    .from-logo {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 181px;
+
+        /* background-color: blueviolet; */
+
+    }
+
+    .img1 {
+        width: 270px;
+        height: 130px;
+        position: static;
+
+        /* position: absolute;
+       margin-left: 176px;
+       margin-top: 60px; */
+
+    }
+
+    .fm {
+        position: absolute;
+        bottom: 0;
+        /* background-color: blueviolet; */
+        margin-bottom: 100px;
+
+    }
+
+    .bg {
+        position: relative;
+        width: 1000px;
+    }
+
+    .kw {
+        /* position: absolute; */
+        width: 512px;
+        height: 16px;
+        padding: 12px 16px;
+        font-size: 16px;
+        /* margin-bottom: 90px; */
+        vertical-align: top;
+        outline: 0;
+        box-shadow: none;
+        border-radius: 10px 0 0 10px;
+        border: 2px solid #c4c7ce;
+        background: #fff;
+        color: #222;
+        overflow: hidden;
+        box-sizing: content-box;
+    }
+
+    .bs-bth {
+        width: 60px;
+        height: 44px;
+        position: relative;
+        z-index: 2;
+
+    }
+
+    .s-bth {
+
+        width: 100px;
+        height: 44px;
+
+
+        padding: 0;
+        background: 0 0;
+        background-color: #4e6ef2;
+        border-radius: 0 10px 10px 0;
+        font-size: 17px;
+        color: #fff;
+        box-shadow: none;
+        font-weight: 400;
+        border: none;
+        outline: 0;
+        text-align: center;
+
+    }
+
+    .host-wrapper {
+        position: absolute;
+        width: 654px;
+        margin: 45px auto 0;
+
+    }
+
+    .host-title {
+        height: 24px;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    .host-fresh {
+        float: right;
+    }
+
+    li {
+        
+        margin-top: 20px;
+        float: left;
+        margin-right: 59px;
+        width: 268px;
+    float: left;
+    }
+    /* li .host-item old{
+        margin-top: 30px;
+        float: right;
+
+    } */
+    .host-item old {
+        position: absolute;
+        margin-right: 15px;
+    }
+
+    .bottom-layer {
+        width: 100%;
+        position: fixed;
+        z-index: 302;
+        bottom: 0;
+        left: 0;
+        height: 39px;
+        padding-top: 1px;
+        overflow: hidden;
+        zoom: 1;
+        margin: 0;
+        line-height: 39px;
+        background: #fff;
+        
+        text-align: center;
+    }
+    .text-color{
+        font-size: 5px;
+        color: rgb(203, 197, 197);
+    }
+    .lh {
+        display: inline;
+        margin-right: 18px;
+
+    }
+</style>
+
+<body>
+    <div class="page">
+        <div class="top-wrap">
+            <div class="top-left">
+                <a href="" target="_blank" class="mnav ">新闻</a>
+                <a href="" target="_blank" class="mnav">hao123</a>
+                <a href="" target="_blank" class="mnav ">地图</a>
+                <a href="" target="_blank" class="mnav ">直播</a>
+                <a href="" target="_blank" class="mnav ">视频</a>
+                <a href="" target="_blank" class="mnav">贴吧</a>
+                <a href="" target="_blank" class="mnav ">学术</a>
+                <a href="" name="tj_briicon" class="mnav" target="_blank">更多</a>
+
+            </div>
+            <div class="top-right">
+                <span class="s-top-right">设置</span>
+                <a href="" class="top-right-bth">登录</a>
+            </div>
+        </div>
+
+        <div class="head-wrapper">
+            <div class="s-from">
+                <div class="s-from-wrapper">
+                    <div class="from-logo">
+                        <img src="./img/baidu.png" alt="百度" class="img1">
+                    </div>
+                    <div class="fm">
+                        <form action="">
+                            <span class="bg"><input type="text" class="kw"></span><span class="bs-bth"><input
+                                    type="text" value="百度一下" class="bs s-bth"></span>
+                        </form>
+                        <div class="host-wrapper">
+                            <div class="host-title">
+                                <a class="hot-title-a" href="" target="_blank">百度热榜</a>
+                                <a id="hotsearch-refresh-btn" class="host-fresh"><i class="c-icon"></i><span
+                                        class="hot-refresh-text">换一换</span></a>
+                            </div>
+                            <ul class="host-content">
+                                <li class="host-item even">
+                                    <a>
+                                        <span>1</span>
+                                        <span>31省区市本土零新增</span>
+                                        <span></span>
+                                    </a>
+                                </li>
+
+                                <li class="host-item even">
+                                    <a>
+                                        <span>1</span>
+                                        <span>31省区市本土零新增</span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li class="host-item even">
+                                    <a>
+                                        <span>1</span>
+                                        <span>31省区市本土零新增</span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li class="host-item old">
+                                    <a>
+                                        <span>1</span>
+                                        <span>31省区市本土零新增</span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li class="host-item old">
+                                    <a>
+                                        <span>1</span>
+                                        <span>31省区市本土零新增</span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li class="host-item old">
+                                    <a>
+                                        <span>1</span>
+                                        <span>31省区市本土零新增</span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="bottom-layer">
+        <div class="bottom-content">
+
+            <p class="lh"><a class="text-color" href=""
+                    target="_blank">设为首页</a></p>
+            <p class="lh"><a class="text-color" href="" target="_blank">关于百度</a></p>
+            <p class="lh"><a class="text-color" href="" target="_blank">About Baidu</a></p>
+            <p class="lh"><a class="text-color"
+                    href=""
+                    target="_blank">百度营销</a></p>
+            <p class="lh"><a class="text-color" href="" target="_blank">使用百度前必读</a></p>
+            <p class="lh"><a class="text-color" href=""
+                    target="_blank">意见反馈</a></p>
+            <p class="lh"><a class="text-color" href="" target="_blank">帮助中心</a></p>
+            <p class="lh"><a class="text-color"
+                    href=""
+                    target="_blank">京公网安备11000002000001号</a></p>
+            <p class="lh"><a class="text-color" href="" target="_blank">京ICP证030173号</a>
+            </p>
+            <p class="lh"><span class="text-color">©2021&nbsp;Baidu&nbsp;</span></p>
+            <p class="lh"><span class="text-color">(京)-经营性-2017-0020</span></p>
+        </div>
+
+    </div>
+</body>
+
+</html>

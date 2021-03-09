@@ -1,0 +1,22 @@
+计算机语言 ： c语言  java  c++  php  python   JavaScript VBScript  c# 
+
+
+计算机语言发展 
+  第一代 ：机器语言  直接二进制 操作难度极大 
+
+  第二代： 汇编语言 借助一些简单英文单词帮助程序员
+
+  第三代 ： 高级编程语言  c语言  java  c++  php  python   JavaScript VBScript  c#  
+     更加符合我们人类的思想  比如  if  else 等 
+
+
+    按照编程思想 ：面向对象(java c#  c++) 和 面向过程(c语言)  
+     
+       JavaScript 两种思想都有  我们称为多范式的编程语言
+
+       面向对象 类与对象为研究单位  面向过程 研究主体是函数 
+
+    按照 强类型 和 弱类型   java  c#    弱类型   js  python   
+
+
+    按解释性和 编译性     JavaScript 解释性    java c#编译性 

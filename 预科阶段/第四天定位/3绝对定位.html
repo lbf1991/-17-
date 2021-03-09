@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            background-color: red;
+
+            /* 
+               绝对定位： 
+                     1、脱离文档流
+                     2、层级提高 z-index 可以调整层级
+                     3、默认位置是文档流中的位置 可以使用 left top bottom right 调整位置
+                     4、相对于离自己最近的 非static的 祖先元素进行定位  如果一直没有就相对于body进行定位
+                     5、一般使用 子绝父相  (子元素用绝对定位 父元素使用相对定位)
+             */
+            /* 开启绝对定位 */
+            position: absolute;
+            /* bottom: 0px; */
+            left: 0px;
+            top: 0px;
+        }
+
+        .box1 {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            background-color: seagreen;
+        }
+        .parent{
+            width: 400px;
+            height: 400px;
+            border: 1px solid #000;
+            background-color: skyblue;
+            position: relative;
+
+        }
+        .son{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            background-color: springgreen;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+    </div>
+    <div class="box1"></div>
+    <hr>
+
+     <div class="parent">
+         <div class="son">
+
+         </div>
+     </div>
+
+
+
+    <hr>
+    <!-- p{我是撑开页面的}*50 emmet -->
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+    <p>写内容</p>
+</body>
+
+</html>

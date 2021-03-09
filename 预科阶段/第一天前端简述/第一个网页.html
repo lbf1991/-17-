@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- 编码格式  世界统一使用 UTF-8 -->
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 网页标题 -->
+    <title>网页标题</title>
+
+    <!-- style  样式表-->
+    <!-- css  层叠样式表   cascading  style  sheet -->
+    <style>
+        /* 设置样式   注意在 style中 注释 变了  */
+        /* 给所有的div 添加样式 */
+
+        div {
+            /* 设置宽度   px图像的最小单位 */
+            width: 200px;
+            /* 定宽居中 指的是我们的div自己   */
+            margin: 0 auto;
+            /* 添加边框 */
+            /*  1px 边框宽度  solid 实现   #000 颜色 */
+            border: 1px solid #000;
+        }
+
+        h1 {
+            /* 设置文本居中 */
+            text-align: center;
+            font-family: "楷体";
+        }
+
+        h2 {
+            text-align: center;
+            font-family: "楷体";
+        }
+
+        p {
+            text-align: center;
+            /* 设置字体类型 */
+            font-family: "楷体";
+        }
+
+        /* 设置图片宽度 */
+
+        img {
+            /* 图片设置宽度后 高度如果不设置就会自适应 */
+            width: 200px;
+
+            /* 图片居中 */
+
+            text-align: center;
+        }
+
+        a {
+            width: 100px;
+            height: 200px;
+        }
+
+        body{
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 常用的快捷键
+    
+       ！+tab  快速生成
+       ctrl +  / 注释
+       ctrl + a  全选
+       ctrl + c  赋值
+       ctrl + v  粘贴
+       ctrl + s  保存
+       ctrl + x  剪切
+       ctrl + z  撤销
+       ctrl + y  恢复
+       ctrl + n  新建
+       ctrl + o  打开
+       ctrl + f  查找
+       ctrl + h  替换
+       ctrl + enter 换行
+       alt + b  默认浏览器打开网页
+    -->
+
+    <!-- div 作用将 我们的 网页分割成一个个的块  division  没有语义   可以看成一个容器 -->
+    <div>
+        <!--  h1 和h2 会自带一些默认样式 字体是32  加粗  颜色加黑 -->
+        <h1>静夜思</h1>
+        <!-- h2 二级标题 -->
+        <h2>作者李白</h2>
+        <p>床前明月光</p>
+        <p>疑是地上霜</p>
+        <p>举头望明月</p>
+        <p>低头思故乡</p>
+    </div>
+
+    <img src="./李白.jpg" alt="">
+
+
+    <!-- 标签根据排列方式 ： 1 块元素  独占一行 可以设置宽高 默认高度0(由内容撑开) 宽度默认是100%(与父元素等宽)   
+         相对于父元素居中    定宽居中  
+        div h1 p  
+        
+        2 行元素  不独占一行 从左到右排列 a span  不能设置宽高  在父元素中 设置 text-align：center
+        
+        3 行内块元素  不独占一行 从左到右排列  img   可以设置宽高 在父元素中 设置 text-align：center
+    -->
+    <a href="http://www.baidu.com">我要跳转到百度</a>
+</body>
+
+</html>

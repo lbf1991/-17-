@@ -1,0 +1,63 @@
+#box{
+    width: 1495px;
+    height: 45px;
+    position: relative;
+    /* background-color: aqua; */
+}
+.boxy li{
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+    
+}
+.boxy li a{
+    text-decoration: none;
+}
+.boxa li a{
+    text-decoration: none;
+}
+.boxa li{
+    list-style: none;
+    float: right;
+    margin: 0 10px;
+    
+}
+.boxa .boxn{
+    background-color: darkcyan;
+    color:#fff;
+}
+.box1{
+    text-align: center;
+    top: 241px;
+    left: 429px;
+  
+    position: absolute;
+}
+.box1 .boxp {
+    width: 600px;
+    height: 45px;
+}
+.box1 {
+color: #000;
+ 
+}
+.box1 a{
+    text-decoration: none;    
+}
+.boxbiao{
+    top: 130px;
+    left: 0px;
+    position: absolute;
+}
+.boxdu{
+   top:0;
+   right: -502px;
+   position: absolute;
+}
+.box2{
+    top:22;
+   left: 0px;
+    position: absolute;
+ }
+
+ 

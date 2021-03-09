@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <title>案例：小米商城手机板块</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .shouji {
+            width: 1259.2px;
+            height: 700px;
+            margin: 0 auto;
+        }
+
+        .top {
+            width: 1259.2px;
+            height: 57.6px;
+            position: relative;
+
+        }
+
+        h2 {
+            padding-top: 14.4px;
+            display: inline-block;
+            color: #333333;
+        }
+
+        .more {
+            width: 92px;
+            height: 57.6px;
+            line-height: 57.6px;
+            position: absolute;
+            top: 0;
+            right: 0;
+
+        }
+
+        .more a {
+            color: #222;
+            display: block;
+            text-align: center;
+        }
+        .more a:hover{
+            color: #ff6700;
+        }
+
+        .leftbox {
+            width: 234px;
+            height: 614px;
+            float: left;
+            transition: all 0.2s;
+        }
+
+        .leftbox:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .rightbox {
+            width: 1025px;
+            height: 614px;
+            float: left;
+        }
+
+        .rightbox .box {
+            width: 234px;
+            height: 302px;
+            display: block;
+            float: left;
+            margin: 0 0 14px 20px;
+            text-align: center;
+            color: #000;
+            background-color: #FFFFFF;
+            transition-property: all;
+            transition-delay: 0.3s;
+            transition-duration: 0.3s;
+            transition-timing-function:linear;
+        }
+
+        .box:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .pic {
+            width: 160px;
+            height: 160px;
+            margin: 20px 37px;
+
+        }
+
+        h3 {
+            font-weight: 400;
+        }
+
+        .desc {
+            font-size: 13px;
+            color: #b0b0b0;
+        }
+
+        .price {
+            margin-top: 10px;
+            color: #ff6700;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shouji">
+        <div class="top">
+            <h2>手机</h2>
+            <div class="more"><a href="#">查看全部<span class="iconfont icon-xiangyou"></span></a>
+            </div>
+        </div>
+        <div class="leftbox"><img src="images/shouji1.webp" alt="" width="234px" height="614px"></div>
+        <div class="rightbox">
+            <ul>
+                <li>
+                    <a class="box" href="#">
+                        <div class="pic"><img src="images/手机1.webp" alt="" width="160" height="160"></div>
+                        <h3>Redmi K40 Pro 系列</h3>
+                        <p class="desc">骁龙888/E4 旗舰直屏</p>
+                        <p class="price">2799元起</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="box" href="#">
+                        <div class="pic"><img src="images/手机2.webp" alt="" width="160" height="160"></div>
+                        <h3>Redmi K40</h3>
+                        <p class="desc">骁龙870,新一代E4 AMOLED旗舰直屏</p>
+                        <p class="price">1999元起</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="box" href="#">
+                        <div class="pic"><img src="images/手机3.webp" alt="" width="160" height="160"></div>
+                        <h3>小米11</h3>
+                        <p class="desc">骁龙888|2k四曲面屏</p>
+                        <p class="price">3999元起</p>
+                        
+                    </a>
+                </li>
+                <li>
+                    <a class="box" href="#">
+                        <div class="pic"><img src="images/手机4.webp" alt="" width="160" height="160"></div>
+                        <h3>小米10</h3>
+                        <p class="desc">骁龙865/1亿像素相机</p>
+                        <p class="price">3399元起 <s class="desc">3999元起</s></p>
+                    </a>
+                </li>
+                <li>
+                    <a class="box" href="#">
+                        <div class="pic"><img src="images/手机5.webp" alt="" width="160" height="160"></div>
+                        <h3>Note 9 Pro</h3>
+                        <p class="desc">一亿像素夜景手机，120Hz六档变速...</p>
+                        <p class="price">1599元起</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="box" href="#">
+                        <div class="pic"><img src="images/手机6.webp" alt="" width="160" height="160"></div>
+                        <h3>Note 9</h3>
+                        <p class="desc">天机800U处理器，5000mAh电池</p>
+                        <p class="price">1299元起</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="box" href="#">
+                        <div class="pic"><img src="images/手机7.webp" alt="" width="160" height="160"></div>
+                        <h3>Note 9 4G</h3>
+                        <p class="desc">6000mAh长续航</p>
+                        <p class="price">999元起</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="box" href="#">
+                        <div class="pic"><img src="images/手机8.webp" alt="" width="160" height="160"></div>
+                        <h3>Redmi 9A</h3>
+                        <p class="desc">5000mAh长循环大电量，6.53"超大护...</p>
+                        <p class="price">2799元起</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

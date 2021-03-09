@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+    <style>
+        body{
+            font-size: 20px;
+            line-height: 30px;
+            font-family: 楷体;
+            text-align: center;
+        }
+        table{
+           margin: 0 auto;
+        }
+        tr{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h3>个人介绍</h3>
+    <hr>
+    <!-- action表单提交到服务器 -->
+    <form action="../html-day1/2(1).html">
+    <table>
+        <tr>
+            <td>姓名：</td>
+            <td><input type="text" placeholder="请输入姓名">
+            </td>
+        </tr>
+        <tr>
+            <td>性别：</td>
+            <td><input type="radio" name="gander" id="nan" checked><label for="nan">男</label>
+                <input type="radio" name="gander" id="nv" ><label for="nv">女</label></td>
+        </tr>
+        <tr>
+            <td>籍贯：</td>
+            <td><select name="" id="">
+                <!-- option选项 -->
+                <option value="">河南</option>
+                <option value="">南京</option>
+                <option value="" selected>合肥</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>联系方式：</td>
+            <td><input type="text" placeholder="请输入联系方式"></td>
+        </tr>
+        <tr>
+            <td>证件号：</td>
+            <td><input type="number" placeholder="请输入有效证件号"></td>
+        </tr>
+        <tr>
+            <td>专业技能：</td>
+            <td><input type="checkbox" name="hobby" checked>h5
+                <input type="checkbox" name="hobby">css3
+                <input type="checkbox" name="hobby">js
+                <input type="checkbox" name="hobby">ps</td>
+        </tr>
+        <tr>
+            <td>学历：</td>
+            <td><textarea cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>个人特长：</td>
+            <td><textarea cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+        <!-- inpput输入框,type属性 输入框的类型 
+        姓名：<input type="text" placeholder="请输入姓名"><br>
+        性别：<input type="radio" name="gander" id="nan" checked><label for="nan">男</label>
+        <input type="radio" name="gander" id="nv" ><label for="nv">女</label><br>
+        生日：<input type="date"><br>
+        籍贯：<select name="" id="">
+             option选项
+            <option value="">河南</option>
+            <option value="">南京</option>
+            <option value="" selected>合肥</option>
+        </select><br>
+        联系方式：<input type="text" placeholder="请输入联系方式"><br>
+        证件号：<input type="number" placeholder="请输入有效证件号"><br>
+        专业技能：<input type="checkbox" name="hobby" checked>h5
+        <input type="checkbox" name="hobby">css3
+        <input type="checkbox" name="hobby">js
+        <input type="checkbox" name="hobby">ps<br>
+        学历：<br>
+        <textarea cols="30" rows="10"></textarea><br>
+        个人特长：
+        <br><textarea cols="30" rows="10"></textarea><br>-->
+        <hr>
+        <input type="submit" value="提交">
+
+    </form>
+</body>
+</html>

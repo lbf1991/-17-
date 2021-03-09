@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 1300px;
+            height: 500px;
+            background-image: url("../img/caodi.png");
+            background-size: 100% 100%;
+            position: fixed;
+            left: 50%;
+            bottom: 50px;
+            margin-left: -650px;
+        }
+
+        .box1 {
+            width: 300px;
+            height: 300px;
+            background-image: url("../img/fengche.png");
+            background-size: 100% 100%;
+            position: absolute;
+            left: 289px;
+            top: 61px;
+            animation: fan 3s linear infinite;
+            /*动画名称  时间  linear匀速运动  infinite无限循环*/
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-image: url("../img/fengche.png");
+            background-size: 100% 100%;
+            position: absolute;
+            left: 616px;
+            top: 309px;
+            animation: fan 3s linear infinite;
+        }
+
+        .box3 {
+            width: 200px;
+            height: 200px;
+            background-image: url("../img/fengche.png");
+            background-size: 100% 100%;
+            position: absolute;
+            left: 752px;
+            top: 209px;
+            animation: fan 3s linear infinite;
+        }
+        /*关键帧动画*/
+
+        @keyframes fan {
+            /*动画开始*/
+            0% {
+                /*动画旋转  rotate旋转  deg角度单位*/
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        /*当鼠标悬停时加速*/
+
+        .box1:hover {
+            animation-duration: 500ms;
+        }
+        /*当鼠标按下时  反向旋转*/
+
+        .box1:active {
+            animation-direction: reverse;
+        }
+
+        .box2:hover {
+            animation-duration: 600ms;
+        }
+        /*当鼠标按下时  反向旋转*/
+
+        .box2:active {
+            animation-direction: reverse;
+        }
+
+        .box3:hover { 
+            animation-duration: 700ms;
+        }
+        /*当鼠标按下时  反向旋转*/
+
+        .box3:active {
+            animation-direction: reverse;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <!--k <audio src="../music/中央人民广播电台少年广播合唱团 - 大风车.mp3" controls="controls" autoplay="autoplay"></audio>-->
+    </div>
+</body>
+
+</html>

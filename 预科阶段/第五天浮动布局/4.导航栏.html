@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul{
+            /* 清除默认样式 */
+            list-style: none;
+            background-color: aquamarine;
+            padding: 0;
+            width: 600px;
+            margin: 0 auto;
+        }
+        li{
+            
+             float: left;
+             /* 添加内边距 当是两个参数的时 参数1上下 参数2 左右 */
+             padding: 10px 20px;       
+        }
+        .clearfix::after{
+            display: block;
+            content: "";
+            clear: both;
+        }
+        /* 后代选择器 */
+        li a{
+            /* 清除下划线 */
+           text-decoration: none;
+
+           font-size: 16px;
+           font-weight: 700;
+        }
+        li:hover{
+             background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- ul 无序列表 -->
+    <ul class="clearfix">
+        <!-- li*8>a[href="#"]      -->
+        <li class="nav"><a href="#">首页</a></li>
+        <li class="nav"><a href="#">新闻</a></li>
+        <li class="nav"><a href="#">导航</a></li>
+        <li class="nav"><a href="#">关于</a></li>
+        <li class="nav"><a href="#">联系</a></li>
+        <li class="nav"><a href="#">头条</a></li>
+        <li class="nav"><a href="#">贴吧</a></li>
+        <li class="nav"><a href="#">网盘</a></li>
+    </ul>
+</body>
+</html>

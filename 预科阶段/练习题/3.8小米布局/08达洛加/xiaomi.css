@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.toubu{
+    width: 1227px;
+    height: 50px;
+    line-height: 50px;
+    background-color:#F5F5F5;
+    margin: 0 auto;
+    
+}
+body{
+    background-color: #F5F5F5;
+}
+h2{
+  font-size: 22px;
+  font-weight: 200;
+  float: left;
+}
+a{
+   float: right; 
+   text-decoration: none;
+   color: #333;
+   transition: all .3s;
+}
+a:hover{
+    color: orangered;
+}
+a:hover span{
+    background-color: orangered;
+}
+a span{
+    transition: all .3s;
+    width: 20px;
+    height: 20px;
+    background-color: #B0B0B0;
+    display:inline-block;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.zhong{
+    width: 1227px;
+    margin: 0 auto;
+   
+
+}
+.zuo{
+    width: 234px;
+    height: 614px; 
+    float: left;
+    transition:transform .3s ;
+}
+.zuo img{
+    width: 234px;
+    height: 614px;
+}
+.you{
+    width: 992px;
+    height:614px ;
+    /* background-color: rgb(165, 42, 42); */
+    float: left;  
+    
+}
+.ul li{
+    width: 230px;
+    height: 300px;
+    list-style-type: none;
+    float: left;
+    margin: 4px 0 4px 17px;
+    background-color: #FFF;
+    transition:transform .3s ;
+
+}
+.ul li:hover,.zuo:hover{
+    transform:translateY(-10px) ;
+    box-shadow: 0 0 5px 1px rgba(204,204,204,.5);
+}
+li img{
+    width: 160px;
+    height: 160px;
+    margin: 10px 0 0 39px;
+}
+h3{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.Q{
+    text-align: center;
+    font-size: 12px;
+    color: #B0B0B0;
+}
+p{
+    font-size: 14px;
+    text-align: center;
+    color: #FF6700;
+}

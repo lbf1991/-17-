@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        a{
+            width: 300px;
+            height: 400px;
+            background-color: rgb(131, 91, 91);
+            /* 修改a的display属性  */
+            /* display: block; */
+
+        }
+        span{
+            width: 300px;
+            height: 400px;
+            background-color: rgb(216, 196, 196);
+
+         
+        }
+        div{
+            /* width: 100px; */
+            /* height: 100px; */
+            background-color: chartreuse;
+            /* 添加边框 */
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <!-- 元素按照排列方式: 1、行元素 
+                              特点： 默认不独占一样 
+                                    从左到有排列 
+                                    不能设置宽高 是由内容撑开的
+        
+                         2、块元素 
+                               特点：  默认是独占一行 
+                                      从上到下排列
+                                      可以设置宽高  默认高度是0 由内容撑开  宽度默认100% 与父元素是等宽的
+                                
+                                 
+                         3、行内块
+                                 特点： 默认不是独占一行
+                                       从左到右排列
+                                       可以设置宽高  是由内容撑开的
+
+
+                     以上三种分类 是默认的规则 其实可以通过 元素 display 属性来改变                  
+                         -->
+                         <a href="http://www.tencent.com">腾讯</a> <a href="http://www.taobao.com">淘宝</a>
+                         <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span> <span>我是span元素</span>
+                         <hr>
+                      <div>我是一个div 是块元素</div>   <span>div下面的span</span> 
+                       <hr>
+                       <img src="./1.jpg" alt="周董"  style="width:500px;"> <img src="./1.jpg" alt=""> <button>按钮</button>
+</body>
+</html>

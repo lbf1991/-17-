@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-size: 12px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            color: #222;
+            text-decoration: none;
+
+        }
+
+        .content {
+            width: 100%;
+            height: 100%;
+        }
+
+        nav,
+        footer {
+            height: 40px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            line-height: 40px;
+            margin-left: 30px;
+        }
+
+        nav ul:first-child li a:hover {
+            color: royalblue;
+        }
+
+        nav ul:last-child li:first-child a:hover {
+            color: royalblue;
+        }
+
+        nav ul:last-child li span {
+            background-color: #4e71f2;
+            margin-right: 20px;
+            border-radius: 10%;
+            padding: 3px 10px;
+            color: #fff;
+        }
+
+        footer ul {
+            display: flex;
+            margin: auto;
+
+        }
+
+        footer ul li {
+            line-height: 50px;
+            margin-left: 15px;
+            color: #bbb;
+        }
+
+        .baidu {
+            width: 100%;
+            height: 450px;
+        }
+
+        .baidu img {
+            width: 250px;
+            height: 120px;
+            margin: 10px 0 10px 40%;
+        }
+
+        input {
+            width: 500px;
+            height: 40px;
+            outline: none;
+            /* border: none; */
+            border: 2px solid rgb(207, 204, 204);
+            border-right: none;
+            border-radius: 10px 0 0 10px;
+        }
+
+        input:focus {
+            border-color: royalblue;
+        }
+
+        .baidu span {
+            display: block;
+            margin-left: -5px;
+            background-color: #4e71f2;
+            text-align: center;
+            width: 100px;
+            float: right;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .baidu span a {
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .baidu span:hover {
+            background-color: #4662d9;
+        }
+
+        .baidu>p {
+            display: block;
+            width: 600px;
+            margin-bottom: 30px;
+            margin: auto;
+        }
+
+        .li {
+            display: flex;
+            width: 600px;
+            justify-content: space-between;
+            margin: auto;
+        }
+
+        .title {
+            width: 600px;
+            display: flex;
+            justify-content: space-between;
+            margin: 15px auto 0px;
+        }
+
+        .title p:last-child a {
+            color: #bbb;
+        }
+
+        .li ul li {
+            line-height: 30px;
+            font-size: 13px;
+        }
+
+        .li ul li a:hover {
+            color: royalblue;
+        }
+
+        footer a {
+            line-height: 50px;
+            color: #bbb;
+
+        }
+
+        footer a:hover {
+            color: #222;
+        }
+
+        .code {
+            width: 25px;
+            height: 25px;
+            position: fixed;
+            right: 30px;
+            bottom: 80px;
+        }
+
+        .title img {
+            width: 12px;
+            height: 10px;
+            position: absolute;
+            left: 360px;
+            top: 244px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <nav>
+            <ul>
+                <li><a href="">新闻</a></li>
+                <li><a href="">hao123</a></li>
+                <li><a href="">地图</a></li>
+                <li><a href="">视频</a></li>
+                <li><a href="">贴吧</a></li>
+                <li><a href="">学术</a></li>
+                <li><a href="">更多</a></li>
+            </ul>
+            <ul>
+                <li><a href="">设置</a></li>
+                <li><a href=""><span>登录</span></a></li>
+            </ul>
+        </nav>
+
+        <div class="baidu">
+            <img src="img/bbb.png" alt="">
+            <p>
+                <input type="search" name="" id="">
+                <span><a href="">百度一下</a></span>
+            </p>
+            <div class="title">
+                <p>百度热榜</p>
+                <p><img src="img/666.jpg" alt=""><a href=""> 换一换</a></p>
+
+            </div>
+            <div class="li">
+                <ul>
+                    <li><a href=""> 1 丽江被抱走3岁男孩已成功解救</a></li>
+                    <li><a href=""> 2 特朗普被提名为美国总统候选人</a></li>
+                    <li><a href=""> 3 忘带身份证考试700分考入清华</a></li>
+
+
+                </ul>
+                <ul>
+                    <li><a href=""> 4 小伙称和失孤原型相似愿做DNA</a></li>
+                    <li><a href=""> 5 建议应届生身份保留延长至5年</a></li>
+                    <li><a href=""> 6 台湾菠萝降价竞争出口日本</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <footer>
+            <ul>
+                <li><a href="">设为首页</a></li>
+                <li><a href="">关于百度</a></li>
+                <li><a href="">About Baidu</a></li>
+                <li><a href="">百度营销</a></li>
+                <li><a href="">使用百度前必读</a></li>
+                <li><a href="">意见反馈</a></li>
+                <li><a href="">帮助中心</a></li>
+                <li><a href="">京公网安备11000002000001号</a></li>
+
+                <li><a href="">京ICP证030173号</a></li>
+
+                <li>©2021 Baidu></li>
+
+                <li>(京)-经营性-2017-0020</li>
+
+            </ul>
+
+        </footer>
+
+
+        <a href=""><img src="img/qrcode@2x-daf987ad02.png" alt="" class="code"></a>
+
+
+
+
+    </div>
+</body>
+
+</html>

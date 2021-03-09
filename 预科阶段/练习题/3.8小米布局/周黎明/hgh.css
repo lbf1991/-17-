@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration:none ;
+    background-color: #f5f5f5;
+    list-style: none;
+    }
+    
+.dh{
+    margin: 20px auto;
+    height: 50px;
+    width: 1160px;
+}
+.dh h2{
+    float: left;
+    font-size: 22px;
+
+}
+.dh a{
+    color: #000;
+    font-size: 16px;
+    float: right;
+}
+.dhz{
+    width: 1700px;
+    height: 614px;
+    margin: -20px 360px;
+}
+.tp{
+    float: left;
+    width: 234px;
+    height: 616px;
+}
+
+.he{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 1100px;
+    height: 660px;
+    float: left;
+}
+.he li{
+    text-align: center;
+    height: 290px;
+    width: 230px;
+    float: left;
+    margin-left:10px ;
+    /* 过渡时间 */
+    transition:transform .5s ;
+}
+h3{
+    font-size: 14px;
+    color: #333333;
+}
+p{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+span{
+    font-size: 14px;
+    color: #ff6700;
+}
+li:hover{
+    /* 移动xy轴 */
+    transform: translateY(-2px);
+    /* 盒子阴影 */
+     box-shadow:0px 10px 20px 6px rgb(204, 198, 198); 
+}

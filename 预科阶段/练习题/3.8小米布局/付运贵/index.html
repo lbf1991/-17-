@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        width: 200px;
+        height: 400px;
+        margin: 0 auto;
+        background-color: skyblue;
+         /* transition: 过渡 */
+        /* 过度属性 对象 */
+        transition-property: all;
+        /* 过渡延迟时间 */
+        transition-delay: 3s;
+        /* 过渡时间 */
+        transition-duration: 0.3s;
+        /* transition-timing-function: 过度速率 ease平滑过渡  linner匀速 ease-in由慢到快 ease-out由快到慢 ease-in-out由慢到快在到慢*/
+       transition-timing-function:linear;
+       /* transition: width 2s,height 2s,background-color 5s,border-radius 5s, 2s; */
+           /* transition: all 2s; */
+        /* 四个属性的简写 all所有的属性 */
+    }
+    .box:hover{
+        width: 400px;
+        height: 600px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+</style>
+<body>
+    <div class="box"></div>
+</body>
+</html>

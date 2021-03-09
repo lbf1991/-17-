@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>百度首页</title>
+</head>
+
+<!--  圆角：border-radius: 5px; -->
+
+<style>
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+    body{
+        text-align: center;
+    }
+    .top1.top2 {
+        display: inline-block
+            /* display:inline; */
+    }
+
+    a {
+        /* 去除a标签下划线 */
+        text-decoration: none;
+        color: #222;
+        /* 去除自带的默认样式比如ul li 自带的小黑点  ol li自带的序号*/
+        /* list-style: none; */
+    }
+
+    .top1 {
+        position: absolute;
+        top: 20px;
+        padding-left: 37px;
+        height: 60px;
+    }
+    a {
+        margin-left: 17px;
+        font-size: 14px;
+
+    }
+    .top2 {
+        position: absolute;
+        right: 0;
+        top: 21;
+        padding: 20px;
+    }
+
+    .bdphoto {
+        text-align: center;
+        position: relative;
+        top: 77px;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    .morebox {
+        position: absolute;
+        width: 304px;
+        height: 223px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        top: 17px;
+        left: 200px;
+        display: none;
+    }
+    .morebox:hover {
+        display: block;
+    }
+    .morebox ul {
+        height: 100%;
+        list-style: none;
+    }
+    .more {
+        height: 41px;
+        display: inline-block;
+    }
+    .more:hover+div {
+        display: block;
+    }
+    .hezi {
+        margin-top: 20px;
+        margin-left: 20px;
+        float: left;
+    }
+    .hezi img {
+        width: 40px;
+        height: 40px;
+    }
+    .hezi .text {
+        text-align: center;
+        color: black;
+    }
+    #moreall {
+        color: black;
+        margin-left: 32px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    #moreall:hover {
+        color: blue;
+    }
+
+    .bdkuang{
+        width: 480px;
+        height: 37px;
+        border-radius: 5px;
+    }
+    .bdone{
+        width: 79px;
+        height: 42px;
+        background-color:deepskyblue;
+    }
+    .rebang{
+        display: inline-flex;
+        width: 377px;
+        height: 377px;
+        /* 父相子绝(父相对子绝对) */
+        position: relative;
+    }
+    .re1{
+        position: absolute;
+        top: 17px;
+        left: -133px;
+    }
+    .re2{
+        position: absolute;
+        top: 17px;
+        right: -47px;
+    }
+    /* 靠左对齐 */
+    ol{
+        text-align: left;
+    }
+    
+</style>
+
+<body>
+    <div class="top1">
+        <a href="">新闻</a>
+        <a href="">hao123</a>
+        <a href="">地图</a>
+        <a href="">直播</a>
+        <a href="">视频</a>
+        <a href="">贴吧</a>
+        <a href="">学术</a>
+        <a href="" class="more">更多</a>
+        <div class="morebox">
+            <ul>
+                <li class="hezi">
+                    <div class="">
+                        <img src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/baiduyun@2x-e0be79e69e.png">
+                    </div>
+                    <div class="text">网盘</div>
+                </li>
+                <li class="hezi">
+                    <div class=""><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/zhidao@2x-e9b427ecc4.png">
+                    </div>
+                    <div class="text">知道</div>
+                </li>
+                <li class="hezi">
+                    <div class=""><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/baike@2x-1fe3db7fa6.png">
+                    </div>
+                    <div class="text">百科</div>
+                </li>
+                <li class="hezi">
+                    <div class=""><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/tupian@2x-482fc011fc.png">
+                    </div>
+                    <div class="text">图片</div>
+                </li>
+                <li class="hezi">
+                    <div class=""><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/baobaozhidao@2x-af409f9dbe.png">
+                    </div>
+                    <div class="text">宝宝知道</div>
+                </li>
+                <li class="hezi">
+                    <div class=""><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/wenku@2x-f3aba893c1.png">
+                    </div>
+                    <div class="text">文库</div>
+                </li>
+                <li class="hezi">
+                    <div class=""><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/jingyan@2x-e53eac48cb.png">
+                    </div>
+                    <div class="text">经验</div>
+                </li>
+                <li class="hezi">
+                    <div class=""><img
+                            src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/yinyue@2x-c18adacacb.png">
+                    </div>
+                    <div class="text">音乐</div>
+                </li>
+                <li style="text-align: center;">
+                    <a href="" id="moreall">查看全部百度产品></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="top2">
+        <a href="">设置</a>
+        <a href="https://www.baidu.com/" target="_blank">
+            <button>登录</button>
+        </a>    
+    </div>
+
+    <div class="bdphoto">
+        <img src="./images/百度首页大图.png" alt="" width="300" height="107">
+    </div>
+
+    <form action="">
+        <br><br><br><br><br>
+        <input type="text" class="bdkuang">
+        <input type="button" value="百度一下" class="bdone">
+    </form>
+
+    <div class="rebang">
+        <ol class="re1">
+            <a href=""><li>人大代表建议春节假期延长至10天</li></a>
+            <a href=""><li>你好李焕英票房成中国影史亚军新</li></a>
+            <a href=""><li>央视评香港选举制度完善</li></a>
+        </ol>
+        <ol class="re2">
+            <a href=""><li>江启臣:不排除亲自率团访问大陆</li></a>
+            <a href=""><li>害怕中国封锁稀土 美将军盯上了它</li></a>
+            <a href=""><li>中国足球名宿迟尚斌因病不幸去世</li></a>
+        </ol>
+    </div>
+</body>
+</html>

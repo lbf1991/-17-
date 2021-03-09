@@ -1,0 +1,239 @@
+.box{
+    width: 1500px;
+    height: 700px;
+    /* border: 1px solid #000; */
+
+}
+.box .boxtou .boxtouright ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.boxtou{
+    width: 1500px;
+    height: 80px;
+    /* border: 1px solid red; */
+
+}
+.boxtoulift{
+    width: 100px;
+    height: 70px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.boxtoulift ul li{
+    list-style: none;
+}
+
+.boxtouright{
+    width: 150px;
+    height: 70px;
+    /* border: 1px solid red; */
+    float: right;
+}
+.boxtouright ul li{
+    list-style: none;
+}
+.boxwei{
+    width: 1500px;
+    height: 620px;
+    /* border: 1px solid blue; */
+}
+.boxwei1{
+    width: 295px;
+    height: 620px;
+    /* border: 1px solid blue; */
+    float: left;
+}
+ .box .boxwei .boxwei1 img{
+    width: 290px;
+    height: 610px; 
+}
+.boxwei2{
+    width: 295px;
+    height: 620px;
+    /* border: 1px solid blue; */
+    float: left;
+    
+}
+.boxwei3{
+    width: 300px;
+    height: 620px;
+    /* border: 1px solid blue; */
+    float: left;
+   
+}
+.boxwei4{
+    width: 300px;
+    height: 620px;
+    /* border: 1px solid blue; */
+    float: left;
+}
+.boxwei5{
+    width: 300px;
+    height: 620px;
+    /* border: 1px solid blue; */
+    float: left;
+}
+.boxwei2x{
+    width: 290px;
+    height: 305px;
+    text-align: center;
+    /* border: 1px solid pink; */
+}
+.boxwei2x img{
+    margin-top: 40px;
+}
+
+.boxwei3x{
+    width: 290px;
+    height: 305px;
+    text-align: center;
+    /* border: 1px solid pink; */
+}
+.boxwei3x img{
+    margin-top: 40px;
+}
+.boxwei31i{
+    width: 290px;
+    height: 305px;
+    text-align: center;
+    /* border: 1px solid pink; */
+}
+.boxwei31i img{
+    margin-top: 40px;
+
+}
+.boxwei32i{
+    width: 290px;
+    height: 305px;
+    text-align: center;
+    /* border: 1px solid pink; */
+}
+.boxwei32i img{
+    margin-top: 40px;
+
+}
+.boxwei41a{
+    width: 290px;
+    height: 305px;
+    text-align: center;
+    /* border: 1px solid pink; */
+}
+.boxwei41a img{
+    margin-top: 40px;
+
+}
+.boxwei42a{
+    width: 290px;
+    height: 305px;
+    text-align: center;
+    /* border: 1px solid pink; */
+}
+.boxwei42a img{
+    margin-top: 40px;
+
+}
+.boxwei51o{
+    width: 290px;
+    height: 305px;
+    text-align: center;
+    /* border: 1px solid pink; */
+}
+.boxwei51o img{
+    margin-top: 40px;
+
+}
+.boxwei52o{
+    width: 290px;
+    height: 305px;
+    text-align: center;
+    /* border: 1px solid pink; */
+}
+.boxwei52o img{
+    margin-top: 40px;
+
+}
+.boxwei .boxwei1 img:hover{
+    box-shadow: 4px 20px 40px 5px rgba(0, 0,0, .5);
+    margin-bottom: 10px;
+}
+.boxwei2 .boxwei2x:hover{
+    box-shadow: 4px 20px 40px 5px rgba(0, 0,0, .5);
+    margin-bottom: 10px;
+}
+.boxwei2 .boxwei3x:hover{
+    box-shadow: 4px 20px 40px 5px rgba(0, 0,0, .5);
+    margin-bottom: 10px;
+}
+.boxwei3 .boxwei31i:hover{
+    box-shadow: 4px 20px 40px 5px rgba(0, 0,0, .5);
+    margin-bottom: 10px;
+}
+.boxwei3 .boxwei32i:hover{
+    box-shadow: 4px 20px 40px 5px rgba(0, 0,0, .5);
+    margin-bottom: 10px;
+}
+.boxwei4 .boxwei41a:hover{
+    box-shadow: 4px 20px 40px 5px rgba(0, 0,0, .5);
+    margin-bottom: 10px;
+}
+.boxwei4 .boxwei42a:hover{
+    box-shadow: 4px 20px 40px 5px rgba(0, 0,0, .5);
+    margin-bottom: 10px;
+}
+.boxwei5 .boxwei51o:hover{
+    box-shadow: 4px 20px 40px 5px rgba(0, 0,0, .5);
+    margin-bottom: 10px;
+}
+.boxwei5 .boxwei52o:hover{
+    box-shadow: 4px 20px 40px 5px rgba(0, 0,0, .5);
+    margin-bottom: 10px;
+}
+.boxwei2x .hi{
+    color:#999;
+}
+.boxwei2x .ha{
+    color: orange;
+}
+.boxwei3x .ha{
+    color:#999;
+}
+.boxwei3x .hi{
+    color: orange;
+}
+.boxwei31i .ha{
+    color:#999;
+}
+.boxwei31i .hi{
+    color: orange;
+}
+.boxwei32i .ha{
+    color:#999;
+}
+.boxwei32i .hi{
+    color: orange;
+}
+.boxwei41a .ha{
+    color:#999;
+}
+.boxwei41a .hi{
+    color: orange;
+}
+.boxwei42a .ha{
+    color:#999;
+}
+.boxwei42a .hi{
+    color: orange;
+}
+.boxwei51o .ha{
+    color:#999;
+}
+.boxwei51o .hi{
+    color: orange;
+}
+.boxwei52o .ha{
+    color:#999;
+}
+.boxwei52o .hi{
+    color: orange;
+}

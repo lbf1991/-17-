@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 类选择器 选中所有 class 含有 box的元素 */
+        .box{
+                width: 200px;
+                height: 200px;
+                border: 1px solid #000;
+                background-color: yellowgreen;
+                /*  文档流: 元素按照排列方式都有自己默认位置  比如块元素(从上到下) 行元素行内块元素(从左到右) 我们称为流式布局  */
+                /*可以通过开启定位来改变元素的位置 */
+                 /* 元素的默认定位方式是 静态的 static  */
+                /* position: static; */
+                /* 相对定位 ：相对于元素自己在文档流中的位置
+                              没有脱离文档流(只是位置改变了文档流中还有这个元素的位置) 
+                              层级默认会提高 可以使用z-index 来调整层级   
+                              一般用于对元素的位置进行微调    
+                              没有 设置left和 top  还是会在自己原来的位置                   
+                  */
+                position: relative;
+                /* 通过left 和top 改变元素的位置 */
+                left: 50px;
+                top: 100px;
+                /* z-index: -1; */
+        }
+        .red{
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            background-color: red;
+        }
+        .blue{
+             width: 200px;
+             height: 200px;
+             border: 1px solid #000;
+             background-color: blue;
+              /* 固定定位： 相对于浏览器窗口进行定位
+                           脱离文档流(文档流中没有该元素的位置了)
+                           默认位置也是在文档流中的位置 
+                           层级会提高 可以使用z-index 来设置
+              
+               */
+             position: fixed;
+             /* left: 400px;
+             top: 10px; */
+             bottom: 0px;
+             right: 0px;
+        }
+        .pink{
+            width: 300px;
+            height: 300px;
+            border: 1px solid #000;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    </div>
+
+    <div class="red"></div>
+
+    <div class="blue"></div>
+    <div class="pink"></div>
+</body>
+</html>

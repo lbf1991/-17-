@@ -1,0 +1,11 @@
+<MKM version="2.0" imageFileUrl="file:///D:/%e5%8d%97%e4%ba%ac17/%e9%a2%84%e7%a7%91%e9%98%b6%e6%ae%b5/%e7%ac%ac%e4%b8%80%e5%a4%a9%e5%89%8d%e7%ab%af%e7%ae%80%e8%bf%b0/%e7%be%8e%e5%a5%b3.jpg">
+  <Marks>
+    <LengthMark direction="3" color="16711680" length="427" x="214" y="1"/>
+    <LengthMark direction="12" color="16711680" length="482" x="1" y="191"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="10394794" offsetX="25" offsetY="10" x="316" y="37"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="65280" targetColor="14071989" offsetX="25" offsetY="10" x="252" y="93"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="8100761" offsetX="25" offsetY="10" x="391" y="134"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="14599612" offsetX="25" offsetY="10" x="280" y="155"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="326" y="260" textMaxWidth="100" offsetX="25" offsetY="10" text="说明..."/>
+  </Marks>
+</MKM>

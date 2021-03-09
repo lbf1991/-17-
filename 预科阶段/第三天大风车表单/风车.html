@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .box{
+              /* 设置box 高和宽 */
+               width: 1300px;
+               height: 500px;
+               /* 居中显示 */
+               /* margin:  0 auto; */
+               /* 添加背景图片 */
+               /* 添加背景图片时  默认显示的是图片的左上角的位置 */
+               background-image: url("caodi.png");
+               /* background-size: contain; */
+               background-size: 100% 100%;
+                /* 添加边框 */
+               /* border: 1px solid #000; */
+                /* 开启定位 相对定位 相对于元素本身的位置 */
+               /* position: relative; */
+               /* top: 200px; */
+               /* fixed 固定定位 相对于浏览器窗口 */
+               position: fixed;
+               /* 距离浏览器窗口底部0px */
+               bottom: 0;
+               /* 左边框居中 */
+               left: 50%;
+               /* 利用外边距调整后 实现box居中 */
+               margin-left: -650px;
+          }
+         
+          #box1{
+              width: 400px;
+              height: 400px;
+              background-image: url("./fengche.png");
+              /* border: 1px solid #000; */
+              /* 设置背景图片的尺寸 和div大小一样 */
+              background-size: 100% 100%;
+              /* 开启绝对定位: 一般是相对于父元素(非static) */
+              position: absolute;
+              top:0px;
+              left:240px;
+                 /* 动画名称和 动画时间是必须的  */
+                 /* linear 匀速运动        infinite 无限次循环*/
+              animation: spin 3s linear  infinite ;
+          }
+          /* 关键帧动画 */
+          @keyframes spin{
+              /* 动画开始 */
+              0%{
+                    /* 动画旋转   rotate旋转  deg 角度单位 */
+                    transform: rotate(0deg);
+              }
+              100%{
+                transform: rotate(360deg);
+              }
+          }
+          /* 当鼠标悬浮时动画加快 */
+          #box1:hover{
+              animation-duration:1s ;
+          }
+          /* 按下鼠标时 方向反向 */
+          #box1:active{
+               animation-direction: reverse;
+          }
+    </style>
+</head>
+<body>
+    <!-- div 块元素 理解成一个容器 用于放其他的元素 -->
+    <!-- div 独占一行 宽度默认100% 高度为0 由内容撑开 -->
+
+<!--  给div添加 一个属性  属性名是class   属性值 box   -->
+    <div class="box">
+        <!-- div*3  emmet输入法 -->
+      <div id="box1"></div>
+      <div id="box2"></div>
+      <div id="box3"></div>
+    </div>
+
+     <audio muted hidden src="./中央人民广播电台少年广播合唱团 - 大风车.mp3" controls="controls" autoplay="autoplay"></audio>
+</body>
+
+<script >
+
+  
+  
+</script>
+</html>

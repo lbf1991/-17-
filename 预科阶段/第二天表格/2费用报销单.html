@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        pre{
+            /* 字体大小 */
+            font-size: 16px;
+        }
+        hr{
+            /* 边框颜色 */
+            border-color: rgb(230, 220, 220);
+        }
+
+        table{
+            /* 边框合并 */
+            border-collapse: collapse;
+            /* 文本居中 */
+            text-align: center;
+        }
+        td{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- align 表格自己居中 -->
+    <table width="700px"  align="center" border="1" >
+        <!-- 表名 -->
+        <caption>
+            <!-- 如果直接 空格 只能在网页中显示一个空格 -->
+            <!-- 转义字符 &nbsp;  no-breaking space -->
+             <h1> 费&nbsp;&nbsp;&nbsp;用&nbsp;&nbsp;&nbsp;报&nbsp;&nbsp;&nbsp;销&nbsp;&nbsp;&nbsp;单</h1>
+             <hr>
+             <!-- span 用于修饰文字  -->
+             <!-- pre  保留文本格式 空格和换行 被保留 -->
+             <pre >报销日期 年 月 日          附件  张</pre> 
+        </caption>
+
+        <tr>
+            <!--  emmet 输入法 td*5 -->
+            <td  width="200px">费用项目</td>
+            <td width = "50px">类别</td>
+            <td width="50px">金额</td>
+            <td width="200px" rowspan="2">负责人 (签章)</td>
+            <td width="200px" rowspan="2"></td>
+        </tr>
+
+        <tr>
+            <td width="200px "></td>
+            <td width="50px" ></td>
+            <td width="50px"></td>
+          
+           
+        </tr>
+        <tr>
+            <td width="200px "></td>
+            <td width="50px" ></td>
+            <td width="50px"></td>
+            <td width="200px" rowspan="2"> 审查意见</td>
+            <td width="200px " rowspan="2"></td>
+        </tr>
+        <tr>
+            <td width="200px "></td>
+            <td width="50px" ></td>
+            <td width="50px"></td>
+          
+           
+        </tr>
+        <tr>
+            <td width="200px "></td>
+            <td width="50px" ></td>
+            <td width="50px"></td>
+            <td width="200px" rowspan="2"> 报销人(签章)</td>
+            <td width="200px " rowspan="2"></td>
+        </tr>
+        <tr>
+            <td width="200px "></td>
+            <td width="50px" ></td>
+            <td width="50px"></td>
+
+        </tr>
+        <tr>
+            <td width="200px "></td>
+            <td width="50px" ></td>
+            <td width="50px"></td>
+            <td width="200px" > ￥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td width="200px "></td>
+        </tr>
+        <tr>
+            <td colspan="5">核实金额(大写)&nbsp;佰&nbsp; 拾&nbsp;万 &nbsp;仟&nbsp; 拾 &nbsp;元 &nbsp;角 &nbsp;分 &nbsp;￥</td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <!-- width="100%"  与父元素等宽-->
+                <table border="1" width="100%">
+                    <tr>
+                        <td width="28%">借款额</td>
+                        <td width = "7%" ></td>
+                        <td width = "7%" >应退金额</td>
+                        <td width="28%"></td>
+                        <td width="28%"> 应补金额</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

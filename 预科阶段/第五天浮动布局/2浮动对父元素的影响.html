@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .parent{
+            /* 一般我们对父元素是不会设置高度的 都是由内容撑开 */
+            /* 子元素开启浮动后 会立即脱离文档流  导致父元素无法被撑起引起高度塌陷*/
+
+            /* 
+                如何解决浮动引起的父元素高度塌陷
+                   1、给父元素设置高度(有弊端)
+                   2、overflow：hidden(推荐)
+                   3、父元素也设置成浮动 (不推荐 因为引发父元素的宽度缺失)
+                   4、开启BFC(了解)
+                   5、添加一个空白元素 并清除兄弟元素对它的影响(没副作用推荐使用 但是会影响我们的页面结构)
+            */
+            border: 1px solid #000;
+            /* height: 100px; */
+
+            /* overflow: hidden; */
+            /* float: left;
+            width: 100%; */
+          
+        }
+        .son{
+            width: 100px;
+            height: 100px;
+            float: left;
+
+        }
+        .son1{
+            background-color: red;
+        }
+        .son2{
+            background-color: blue;
+        }
+        .son3{
+             background-color: green;
+        }
+        .son4{
+           
+           clear: both;
+   
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="son1 son"></div>
+        <div class="son2 son"></div>
+        <div class="son3 son"></div>
+        <div class="son4  "></div>
+    </div>
+</body>
+</html>

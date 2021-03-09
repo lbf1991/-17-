@@ -1,0 +1,143 @@
+*{margin: 0;
+padding: 0;
+}
+
+.box .xiaobiaoti{
+    height: 90px;
+    width: 1500px;
+    margin: 0 auto;
+    /* border:1px solid black; */
+}
+.biaotiwenzi{
+    height: 30px;
+    width: 500px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+.biaotiwenzi ul li{
+    list-style: none;
+
+}
+.biaotiwenzi ul li a{
+    text-decoration: none;
+    float: left;
+    margin: 0 15px;
+    color: black;
+    font-size: 18px;
+}
+.xiaobiaoti .youbiaoti{
+    height: 30px;
+    width: 50px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 1400px;
+    margin-top: -30px;
+    font-size: 18px;
+}
+.xiaobiaoti .youbiaoti ul li{
+    list-style: none;
+}
+.xiaobiaoti .youbiaoti ul li a{
+    text-decoration: none; 
+    color: black;
+}
+.xiaobiaoti .denglu{
+    float: right;
+}
+.xiaobiaoti .denglu{
+margin-top: -30px;}
+.box .tupian{
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 300px;
+    background-image: url("/百度首页/百度img/result.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 150px;margin-bottom: 10px;
+}
+.box .wenbenkuang{
+    height: 100px;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.box .wenbenkuang .wenbenk{
+    height: 46px;
+    width: 100px;
+    /* border: 1px solid black; */
+    float: right;
+    margin-top: -54px;
+    margin-right: 94px;
+}
+.box .wenbenkuang input{
+    float: left;
+    outline: blue;
+}
+.dibu{
+    height: 200px;
+    width: 800px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.dibu .dibubiaoyou{
+    height: 180px;
+    width: 300px;
+    /* border: 1px solid red; */
+}
+.dibu .dibubiaoyou ul li{
+    list-style: none;   
+     margin-bottom: 10px;
+    margin-left: 20px;
+}
+.dibu .dibubiaoyou ul li a{
+    text-decoration: none; 
+    color: black;
+}
+.dibu .dibubiaoyou1{
+    height: 180px;
+    width: 300px;
+    /* border: 1px solid red; */
+    float: right;
+    margin-top: -183px;
+}
+.dibu .dibubiaoyou1 ul li{
+    list-style: none;  
+    margin-left: 130px;  
+    margin-bottom: 10px;
+
+}
+.dibu .dibubiaoyou1 ul li a{
+    text-decoration: none; 
+    color: black;
+}
+.zuixia{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color:gainsboro;
+    margin-top: 75px;
+}
+.zuixia .zuixiayou ul li {
+    list-style: none;
+
+
+}
+.zuixia .zuixiayou ul li a{
+    text-decoration: none;
+    float: left;
+    color: black;
+    font-size: 12px;
+    margin:5px 5px;
+}
+.zuixia .zuixiayou1 ul li {
+    list-style: none;
+
+
+}
+.zuixia .zuixiayou1 ul li a{
+    text-decoration: none;
+    float: right;
+    color: black;
+    font-size: 12px;
+    margin:5px 5px;
+}

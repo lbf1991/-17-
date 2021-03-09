@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>风车</title>
+    <style>.one{
+        height: 600px;
+       width:800px;
+       border: 1px solid black ;
+       margin: 0 auto;
+       margin-top:200px;
+       position: relative;
+    
+    }
+    .one img{
+        height: 600px;
+        width: 800px;
+    }
+    .one .one1{
+        height: 300px;
+        width: 300px;
+        background-size: 100% 100%;
+        
+        /*border: 1px  solid red;*/
+        position:absolute;
+
+        top: 105px;
+        left: 117px;
+        background-image: url("fengche.png");
+        animation: spin 3s linear infinite;}
+        @keyframes spin{
+           100%{
+               transform: rotate(360deg);}
+        }
+        .one .one1:hover{
+            animation-duration: 1s;
+        }
+          .one .one1:active{
+              animation-direction: reverse;
+          }
+    .one .one2{
+        height: 150px;
+        width: 150px;
+        /*border: 1px solid #fcf;*/
+          position:absolute;
+          top: 349px;
+          left: 334px;
+           background-image: url("fengche.png");
+             animation: spin 3s linear infinite;
+            background-size: 100% 100%;
+    
+    }
+     .one .one2:hover{
+            animation-duration: 1s;
+        }
+          .one .one2:active{
+              animation-direction: reverse;}
+    .one .one3{
+        height: 200px;
+        width: 200px;
+         /*border: 1px solid blue;*/
+          background-image: url("fengche.png");
+          animation: spin 3s linear infinite;
+           background-size: 100% 100%;
+           position:absolute;
+          top: 290px;
+          left: 426px;}
+           .one .one3:hover{
+            animation-duration: 1s;}
+        
+          .one .one3:active{
+              animation-direction: reverse;}
+        
+    
+    
+    </style>
+</head>
+<body>
+    <div class="one"><img src="caodi.png" alt="">
+    <div class="one1"></div>
+         <div class="one2"></div>
+          <div class="one3"></div></div>
+          <audio src="中央人民广播电台少年广播合唱团 - 大风车.mp3" controls="controls" autoplay="autoplay"></audio>
+</body>
+</html>
+     
+    

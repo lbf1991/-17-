@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            height: 100px;
+            border: 1px solid #000;
+            background-color: brown;
+            width: 100px;
+            /* 浮动： left  right  */
+            /* 开启浮动后    会立即脱离文档流
+                             默认宽高由内容撑开
+                             层级会高
+                             浮动是不会覆盖文字的
+                             行元素和行内块元素会变成 块元素
+                             可以使用clear 属性清除其他浮动元素对我的影响
+            
+             */
+            float: left;
+         
+        }
+        .box2{
+            height: 100px;
+            width: 100px;
+            border: 1px solid #000;
+            background-color: chartreuse;
+            float: left;
+        }
+        a{
+           float: left;
+        }
+        .box3{
+            height: 200px;
+            width: 200px;
+            border: 1px solid #000;
+            background-color: darkblue;
+            /* 清除浮动元素对我的影响   left 是清除我左边的浮动元素的影响 */
+            /* both 两边都清除  right 清除右边浮动元素对我的影响 */
+             clear:  left;
+        }
+    </style>
+</head>
+<body>
+    <!-- 传统的布局 ：div + float + position
+      -->
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <!-- <a href="http://www.baidu.com">百度</a> -->
+
+
+      <div class="box3"></div>
+</body>
+
+
+
+
+</html>

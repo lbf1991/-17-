@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.ll {
+  width: 100%;
+  height: 100%;
+}
+.qq {
+  /* width: 100%;
+  height: 100%; */
+  position: relative;
+  top: 10px;
+  word-spacing: 20px;
+  margin-left: 20px;
+}
+.qq a:hover {
+  color: blue;
+}
+
+.qq a {
+  text-decoration: none;
+  font-size: 12px;
+}
+.qq a:nth-of-type(8),
+.qq a:nth-of-type(9) {
+  float: right;
+
+  margin-right: 55px;
+}
+.qq a:nth-of-type(8) {
+  background-color: #4e6ef2;
+  color: rgb(247, 238, 238);
+  border-radius: 6px;
+  padding: 4px 11px;
+}
+.ww {
+  width: 654px;
+  height: 188px;
+  margin: 0 446px;
+  top: 0;
+  position: absolute;
+}
+.ww img {
+  width: 258px;
+  height: 120px;
+  padding: 32px 0px 36px 171px;
+}
+.gg img {
+  width: 26px;
+  height: 26px;
+ 
+  
+}
+img {
+  vertical-align: middle;
+}
+.gg .oo:hover {
+  color: #4e6ef2;
+}
+.x {
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 411px;
+  position: absolute;
+}
+
+.n {
+  width: 111px;
+  height: 46px;
+  background-color: #4e6ef2;
+  color: aliceblue;
+  border-radius: 0 10px 10px 0;
+  border: 0;
+  outline: none;
+}
+.aa {
+  width: 611px;
+  height: 43px;
+  border: 2px rgb(175, 166, 166) solid;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+  float: left;
+  outline: none;
+}
+p {
+  margin: 56px 10px 10px 10px;
+}
+p span {
+  padding-left: 595px;
+}
+.ss {
+  width: 798px;
+  height: 200px;
+  margin: 356px auto;
+  position: relative;
+}
+.ss a {
+  text-decoration: none;
+  float: left;
+  color: #000;
+}
+.ss a:hover {
+  color: #4e6ef2;
+}
+.vv {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  padding: 0 0 0 78px;
+}
+.cc {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  margin: 0 0 0 517px;
+}
+.kk a {
+  text-decoration: none;
+  
+  color: #bbb;
+  margin-right: 10px;
+}
+.kk{
+  text-align: center;
+}
+.kk a:hover {
+  color: #000;
+}

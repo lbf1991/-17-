@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				text-decoration: none;
+				list-style: none;
+			}
+
+			.container {
+				width: 900px;
+				height: 1000px;
+				margin: 0 auto;
+			}
+
+			.header_wrap {
+				width: 100%;
+				height: 50px;
+				position: fixed;
+				background-color: white;
+				box-shadow: 0 0 5px #888;
+				z-index: 9999;
+			}
+
+			.header_logo {
+				width: 81px;
+				height: 27px;
+				float: left;
+				padding-left: 40px;
+				text-align: center;
+			}
+
+			.header_logo img {
+				margin-top: 11px;
+				height: 27px;
+				width: 81px;
+			}
+
+			.header_menu {
+				float: right;
+				margin: 17px 0;
+				padding-right: 40px;
+				color: #000000;
+			}
+
+			.index {
+				width: 64px;
+				font-size: 16px;
+				margin-right: 30px;
+				color: #000000;
+			}
+
+			.line {
+				display: inline-block;
+				width: 1px;
+				height: 15px;
+				background-color: #e0e0e0;
+				vertical-align: -2px;
+			}
+
+			.login {
+				float: right;
+				margin-left: 30px;
+			}
+
+			.title_border {
+				border-bottom: 1px solid #eee;
+				padding-bottom: 50px;
+			}
+
+			.article-title h2 {
+				font-size: 40px;
+				line-height: 58px;
+				padding-top: 85px;
+				padding-bottom: 21px;
+				text-align: justify;
+				font-weight: 700;
+				font-family: "Microsoft Yahei", "微软雅黑", "宋体";
+			}
+
+			.anci_header_content .article-desc div {
+				float: left;
+			}
+
+			.author-txt {
+				padding: 0;
+				max-width: 492px;
+				overflow: hidden;
+				white-space: nowrap;
+				color: #999;
+			}
+
+			.article-desc .author-icon {
+				position: relative;
+				width: 47px;
+				height: 47px;
+				margin-right: 15px;
+				padding: 1px 0;
+				border-radius: 50%;
+				float: left;
+			}
+			.renz{
+				width: 16px;
+				height: 16px;
+				position: absolute;
+				top: 34px;
+				left: 32px;
+				
+			}
+			.article-desc .author-icon img {
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+			}
+
+			.article-source span {
+				font-size: 12px;
+			}
+
+			.date {
+				margin-left: 0;
+			}
+
+			.account-authentication {
+				margin-left: 8px;
+				padding-left: 8px;
+				max-width: 440px;
+				border-left: 1px solid #eee;
+				line-height: 1;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+			}
+
+			.author-name {
+				margin: 3px 0 5px 0;
+			}
+
+			.left-container {
+				width: 600px;
+				padding-right: 50px;
+				float: left;
+			}
+
+			.right-container {
+				width: 200px;
+				border-left: 1px solid #eee;
+				padding-left: 49px;
+				float: right;
+				padding-bottom: 2000px;
+			}
+
+			.item-wrap {
+				padding-top: 40px;
+				width: 600px;
+			}
+
+			.article-content p {
+				font-size: 16px;
+				line-height: 40px;
+				color: #333;
+				text-align: justify;
+			}
+
+			.bjh-strong {
+				font-size: 18px;
+				color: #333;
+				font-weight: 700;
+			}
+
+			.recent-article h2 {
+				font-size: 18px;
+				line-height: 1;
+				font-weight: 700;
+				color: #000;
+			}
+
+			.recent-article {
+				padding-top: 40px;
+			}
+
+			.recent-article li {
+				padding: 20px 0;
+				border-bottom: 1px solid #eee;
+			}
+
+			.recent-article li a:hover {
+				text-decoration: underline
+			}
+
+			.recent-article li a {
+				color: #000000;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 20px;
+			}
+
+			.recent-article li a img {
+				width: 200px;
+				height: 112px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!-- 顶部导航 -->
+		<div class="header_wrap">
+			<div class="header_logo">
+				<a href="https://www.baidu.com" target="_blank">
+					<img src="img/logo_top.png">
+				</a>
+			</div>
+			<div class="header_menu">
+				<a href="" class="index">百度首页</a>
+				<span class="line"></span>
+				<div class="login">
+					useruseruseruser
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<!-- 标题作者-->
+			<div class="title_border">
+				<div class="article-title">
+					<h2>人要想成功必须做到三点，缺一不可！</h2>
+				</div>
+				<div class="article-desc clearfix">
+					<div class="author-icon">
+						<img src="img/39c83dcdff2af90e7a00abb0df3130f6.jpeg">
+						<span class="renz"><img src="img/认证.png" ></span>
+					</div>
+					<div class="author-txt">
+						<div class="author-name">
+							<a href="">水木然</a>
+						</div>
+						<div class="article-source article-source-bjh">
+							<span class="date">发布时间：20-04-05</span>
+							<span class="time">15:14</span>
+							<span class="account-authentication">畅销书作家,优质创作者</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 左侧文章内容 -->
+			<div class="content-container">
+				<div class="left-container">
+					<div class="item-wrap">
+						<div class="article " id="article" data-islow-browser="0">
+							<div class="article-content">
+								<p><span class="bjh-p">一个人要想成功，必须做到以下三点：</span></p>
+								<p><span class="bjh-p"><span class="bjh-strong">第一点：找准位置</span></span></p>
+								<p><span class="bjh-p">人，放对了地方就是天才，放错了地方就是垃圾。</span></p>
+								<p><span class="bjh-p">比如老罗，回想起他的这些年，他原本属于演讲型人才，适合表现和表达，却非要自己创业，钻到牛角尖里，其实没有找好自己的定位。</span></p>
+								<p><span class="bjh-p">创业十年被人嘲弄，结果做直播就成功了！</span></p>
+								<p><span class="bjh-p">老罗的成功，不是他多么努力，而是他终于被逼回了自己的赛道。</span></p>
+								<p><span class="bjh-p">俗话说，是金子在哪里都闪光。果真如此吗？非也。</span></p>
+								<p><span class="bjh-p">只有找准位置，物才能尽其才，人才能尽其用，实现相应的价值。</span></p>
+								<p><span class="bjh-p">很多人抱怨自己怀才不遇，其实是你被放错了地方。</span></p>
+								<p><span class="bjh-p">人一旦被放错了地方，就是垃圾。这里不是说你一钱不值，而是说你的境地压根就无关你的才能。你纵有用武之力，但无用武之地。是“锅台上跑马，兜不了多大圈子。”</span></p>
+								<p><span class="bjh-p">人生最大的不幸，就是不能摆对自己的位置。老罗之前就是不见棺材不掉泪，不撞南墙不回头，所幸他今日终于清醒的认识自己，并且摆对了自己的位置。</span></p>
+								<p><span class="bjh-p">俗语云：龙居水浅遭虾戏，虎落平阳被犬欺。”又有俗话云：“落魄的凤凰不如鸡”。放对位置，选对赛道，才是人生的关键。</span></p>
+								<p><span class="bjh-p">找准位置，你就是一条龙。找不准位置，你就是一条虫。</span></p>
+								<p><span class="bjh-p">是骏马，就不要局限在锅台上跑马，而要到广阔的草原上驰骋。</span></p>
+								<p><span class="bjh-p">是雄鹰，就不要习惯在檐下低徊，而要去搏击长天！</span></p>
+								<div class="img-container"><img class="large" data-loadfunc="0" src="./img/71cf3bc79f3df8dc4a8cb0b66b3f058d4710281c.jpeg"
+									 data-loaded="0"></div>
+								<p><span class="bjh-p"><span class="bjh-strong">第二点：找到势能</span></span></p>
+								<p><span class="bjh-p">人生福祸得失，皆因外界变化周期而起，人和人的命运确实有很大不同，有的人顺风顺水，有的人艰难坎坷，之所以有这种差别，更大程度应该归结于一个人能不能借势发力，命运最大的不同，其实是人发力原理的不同。</span></p>
+								<p><span class="bjh-p">老罗这次的成功，是因为他成功的借了直播的势，借了疫情的势，借了抖音的势。</span></p>
+								<p><span class="bjh-p">我们再来看看宇宙的样子吧，它就像一个大漩涡，可以看成一股正在旋转的能量：</span></p>
+								<div class="img-container"><img class="large" data-loadfunc="0" src="./img/71cf3bc79f3df8dc4a8cb0b66b3f058d4710281c.jpeg"
+									 data-loaded="0"></div>
+								<p><span class="bjh-p"><span class="bjh-br"></span>它蕴含着巨大的“势能”，如果我们能跟顺应着宇宙的能量一起运转，这就是顺势而为，就可以“坐地日行八万里”。而如果我们的方向和宇宙大势的方向相反了，必定会再无形种受到一股很大的阻力。</span></p>
+								<p><span class="bjh-p">什么叫天道？这就叫天道！天道就是宇宙的势能，就是万物运行的规律，也是一股股时代发展浪潮！</span></p>
+								<p><span class="bjh-p">老子早就说了：天地不仁，以万物为刍狗。在时代面前我们真的很渺小！我们的想法，我们的努力，我们的牺牲，根本都不值一提。</span></p>
+								<p><span class="bjh-p">我们就像时代洪流的一叶浮萍，我们的命运轻如鸿毛。无论你多么才华横溢，无论你多么拼搏上进，都无法逆转这个巨大的规律漩涡。</span></p>
+								<p><span class="bjh-p">再以一个例子为说明：</span></p>
+								<p><span class="bjh-p">现在流行的新能源电动车，早在1881年就被发明出来了，这比卡尔本茨发明的汽车还要早5年。然而直到100多年后的今天，特斯拉的出现，人们才对电动车燃起热情，还说这是新能源。</span></p>
+								<p><span class="bjh-p">人们把特斯拉的发明人马斯克奉为英雄，却对100多年前发明电动车的人毫不知情，这是为什么呢？因为汽油才是100年前的新能源，它取代了煤，符合当时的历史潮流。而电力只有在现在才是最与时俱进的新能源！</span></p>
+								<p><span class="bjh-p">这就是不同时代的不同势能，你借到势能了就是神，跟势能违背了，再大的能力和抱负都不值一提！</span></p>
+								<p><span class="bjh-p">什么样的人可以称之为神人呢？人一旦看透了规律，顺应规律办事，踩准每一个变化节点就是神！</span></p>
+							</div><audio height="0" width="0" id="musicAudio" data-play-index="">
+								<source></audio>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 右侧文章内容 -->
+			<div class="right-container">
+				<!-- 作者最新 -->
+				<div class="recent-article">
+					<h2>
+						作者最新文章
+						<ul>
+							<li>
+								<a href="">近1亿人脱贫！中国经验震惊海外，商务部点赞阿里“最先一公里”</a>
+							</li>
+							<li>
+								<a href="">近1亿人脱贫！中国经验震惊海外，商务部点赞阿里“最先一公里”</a>
+							</li>
+							<li>
+								<a href="">近1亿人脱贫！中国经验震惊海外，商务部点赞阿里“最先一公里”</a>
+							</li>
+						</ul>
+					</h2>
+				</div>
+
+				<!-- 最新相关 -->
+				<div class="recent-article">
+					<h2>相关文章</h2>
+					<ul>
+						<li>
+							<a href="">真正决定你财富的，是你的能力结构！<img src="img/singapore256-256.jpg"></a>
+						</li>
+						<li>
+							<a href="">真正决定你财富的，是你的能力结构！<img src="img/singapore256-256.jpg"></a>
+						</li>
+						<li>
+							<a href="">真正决定你财富的，是你的能力结构！<img src="img/singapore256-256.jpg"></a>
+						</li>
+						<li>
+							<a href="">真正决定你财富的，是你的能力结构！<img src="img/singapore256-256.jpg"></a>
+						</li>
+						<li>
+							<a href="">真正决定你财富的，是你的能力结构！<img src="img/singapore256-256.jpg"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

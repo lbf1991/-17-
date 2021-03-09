@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: middle
+}
+
+.top {
+    width: 100%;
+    height: 60px;
+}
+
+.top a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+.top a:hover {
+    color: royalblue;
+}
+
+.top_box .box_two {
+    float: right;
+    margin-right: 25px;
+}
+
+.top .top_box {
+    padding-top: 17px;
+}
+
+.box_one a {
+    margin-left: 25px;
+}
+
+.box_two a {
+    margin-right: 25px;
+}
+
+.box_two button {
+    width: 48px;
+    height: 25px;
+    background-color: royalblue;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+
+.logo img {
+    width: 270px;
+    height: 129px;
+}
+
+.logo input {
+    width: 482px;
+    padding: 11px 48px 11px 16px;
+    border: 2px solid #c4c7c1;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    border-right: none;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+input:hover {
+    width: 482px;
+    padding: 11px 48px 11px 16px;
+    border: 2px solid #999;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    border-right: none;
+}
+
+input:focus {
+    border: 2px solid royalblue;
+    border-right: none;
+}
+
+.logo button {
+    width: 105px;
+    height: 44px;
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    font-size: 17px;
+    box-shadow: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.logo button:hover {
+    background-color: rgb(53, 85, 182);
+}
+
+.jingl {
+    width: 24px;
+    height: 20px;
+    background: url(./精灵.png) 0 -49px;
+    position: absolute;
+    left: 1145px;
+    top: 360px;
+}
+
+.jingl:hover {
+    background: url(./精灵.png) 0 -73px;
+}
+
+.buttem {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 39px;
+    text-align: center;
+}
+
+.buttem a {
+    font-size: 12px;
+    line-height: 39px;
+    padding: 6px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.buttem span {
+    font-size: 12px;
+    line-height: 39px;
+    padding: 6px;
+    color: #bbb;
+}
+
+.buttem a:hover {
+    color: #000;
+}

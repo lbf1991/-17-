@@ -1,0 +1,145 @@
+/* 基础样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+}
+.w {
+  width: 900px;
+  margin: 0 auto;
+}
+/* 头部 */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #f8f8f9;
+  box-shadow: 0 2px 8px -5px #000;
+  padding: 11.5px 40px 0 40px;
+}
+h1 {
+  float: left;
+  width: 81px;
+  height: 27px;
+  background: url(../imgs/logo_top.png);
+  background-size: 81px 27px;
+  cursor: pointer;
+}
+header > div {
+  float: right;
+}
+
+header > div span {
+  padding: 0 25px;
+  color: #ccc;
+}
+/* 用户头像部分 */
+.tit {
+  height: 220px;
+  border-bottom: 1px solid #ccc;
+  background: #f8f8f9;
+  margin-top: 50px;
+}
+.tit h2 {
+  font-size: 40px;
+  padding: 41px 0 21px;
+}
+.user {
+  display: flex;
+  position: relative;
+}
+.user-ic {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  margin-right: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.user-ic img {
+  width: 47px;
+  height: 47px;
+}
+i {
+  position: absolute;
+  bottom: -3px;
+  left: 30px;
+  width: 15px;
+  height: 15px;
+}
+.user-data .time {
+  color: #999;
+  font-size: 12px;
+  line-height: 22px;
+}
+.user-data p span {
+  padding: 0 10px;
+  opacity: 0.1;
+}
+/* 主页内容部分 */
+.analysis {
+  display: flex;
+}
+.analysis h2 {
+  font-size: 18px;
+}
+.analysis-l {
+  width: 650px;
+  border-right: 1px solid #ccc;
+  padding: 40px 50px 0 0;
+}
+.analysis-l p {
+  font-size: 16px;
+  line-height: 22px;
+}
+.analysis-l img {
+  width: 600px;
+  height: auto;
+  margin-top: 22px;
+}
+.analysis-l p:nth-of-type(1) {
+  margin: 0;
+}
+.analysis-l h2,
+.analysis-l p {
+  margin-top: 22px;
+}
+.analysis-l > div {
+  margin: 30px 0 40px;
+  text-align: right;
+  font-size: 12px;
+}
+.analysis-r {
+  width: 250px;
+  padding: 40px 0 0 50px;
+}
+.analysis-r img {
+  width: 200px;
+  height: 112px;
+  padding-top: 7px;
+}
+.analysis-r a {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #333;
+}
+.analysis-r h2:nth-of-type(2) {
+  margin-top: 40px;
+}
+.analysis-r a:last-of-type {
+  border: none;
+}

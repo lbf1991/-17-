@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>风车</title>
+    <style>
+        .main{
+            width: 1300px;
+            height: 500px;
+            background-image: url("../html-day1/img/caodi.png");
+            background-size: 100% 100%;
+            /* 开启定位 */
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            margin-left: -650px;
+        }
+        #box1{
+            height: 400px;
+            width: 400px;
+            background-image: url("img/fengche.png");
+            background-size: 100% 100%;
+            /* 开启绝对定位，一般相对于父元素（#static） */
+            position: absolute;
+            top: 0px;
+            left: 238px;
+            /* 名字，完成时间，完成方式，延迟时间，播放次数，动画进度，完成后样式 
+            animation: name duration timing-function delay iteration-count direction fill-mode;*/
+            animation: spin 3s linear infinite ;
+        } 
+            /* 关键性动画 */
+            @keyframes spin {
+                0%{
+                    transform:rotate(0deg);
+                }
+                100%{
+                    transform:rotate(360deg);
+                }
+            }       
+           
+        /* 当鼠标悬浮时动画加快 */
+        #box1:hover{
+            animation-duration: 1s;
+        }
+        /* 当鼠标按下时，方向反向 */
+        #box1:active{
+            animation-direction: reverse;
+        }
+        #box2{
+            height: 200px;
+            width: 200px;
+            background-image: url("img/fengche.png");
+            background-size: 100% 100%;
+            /* 开启绝对定位，一般相对于父元素（#static） */
+            position: absolute;
+            top: 250px;
+            left: 565px;
+            animation: spin 4s linear infinite ;
+        }
+        #box2:hover{
+            animation-duration: 0.5s;
+        }
+        #box3{
+            height: 300px;
+            width: 300px;
+            background-image: url("img/fengche.png");
+            background-size: 100% 100%;
+            /* 开启绝对定位，一般相对于父元素（#static） */
+            position: absolute;
+            top: 157px;
+            left: 702px;
+            animation: spin 5s linear infinite ;
+        }
+        #box3:active{
+            animation-direction: reverse;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+    </div>
+</body>
+</html>

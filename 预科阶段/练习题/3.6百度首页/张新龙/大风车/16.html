@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>大风车</title>
+    <style>
+        .box{
+            width: 1300px;
+            height:500px ;
+            /* background-image: url("./img/caodi.png"); */
+             background-image: url("./img/caodi1.png");
+            background-size: 100% 100%;
+            /* border: 1px solid black; */
+            /* 开启定位 相对定位 相对于元素本身的位置
+            position: relative;
+            top:"200px";
+            fiex 固定定位 相对于浏览器窗口 */
+            position: fixed;
+            /* 距离浏览器窗口底部0px */
+            bottom: 0;
+            /* 左边框居中 */
+            left: 50%;
+            /* 利用外边距调整后 实现box居中 */
+            margin-left: -650px;
+
+        }
+        .box1{
+            width: 400px;
+            height: 400px;
+            background-image: url("./img/fengche.png");
+            /* border: 1px solid red; */
+            background-size: 100% 100%;
+            position: relative;
+            top: 0px;
+            left: 240px;
+            /* 动画名称和动画时间是必须的 */
+            /* linear 匀速运动 infinite 无限循环 */
+            animation: spin 3s linear  infinite  ;
+        }
+        /* 关键帧动画 */
+        @keyframes spin{
+            /* 动画开始 */
+            0%{
+                /* 动画旋转 rotate旋转 deg角度单位 */
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+
+        }
+        /* 鼠标悬浮时动画加快 */
+        .box1:hover{
+            animation-duration: 1s;
+        }
+        /* 按下鼠标时 方向反向 */
+        .box1:active{
+            animation-direction: reverse;
+
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-image: url("./img/fengche.png");
+            background-size: 100% 100%;
+            /* border: 1px solid red; */
+            position: relative;
+            top: -93px;
+            left: 618px;
+            animation: spin 3s linear  infinite  ;
+       
+        }
+     
+        .box2:hover{
+            animation-duration: 1s;
+        }
+        .box2:active{
+            animation-direction: reverse;
+
+        }
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-image: url("./img/fengche.png");
+            background-size: 100% 100%;
+            /* border: 1px solid red; */
+            position: relative;
+            top: -291px;
+            left: 755px;
+            animation: spin 3s linear  infinite  ;
+        
+        }
+        .box3:hover{
+            animation-duration: 1s;
+        }
+        .box3:active{
+            animation-direction: reverse;
+
+        }
+    </style>
+</head>
+
+</div>
+<body>
+    <div class="box">
+        <div class="box1"><img src="" alt=""></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <audio muted src="./中央人民广播电台少年广播合唱团 - 大风车.mp3"  controls="controls" autoplay="autoplay"></audio>
+</body>
+<html>

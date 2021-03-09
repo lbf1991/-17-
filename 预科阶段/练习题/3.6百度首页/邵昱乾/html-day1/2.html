@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大风车</title>
+    <style>
+        .main{
+            height: 600px;
+            width: 1300px;
+            position: relative;
+            /*开启定位position: 
+            relative:相对定位
+            fixed:固定定位，相对于浏览器固定
+            absolute:绝对定位
+            添加位置属性top，left，right，bottom进行调动*/
+        }
+        .img1{
+            height: 600px;
+            width: 1300px;
+        }
+        .fc1{
+            height: 350px;
+            width: 350px;
+            position: absolute;
+            left: 265px;
+            top: 75px;
+            animation: anm 3s linear forwards infinite;
+        }
+        .fc1:hover{
+            animation-duration: 0.5s;
+        }
+        .d1{
+            height: 350px;
+            width: 350px;
+        }
+        .fc2{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            left: 566px;
+            top: 320px;
+            animation: anm 2s linear forwards infinite;
+        }
+        .d2{
+            height: 200px;
+            width: 200px;
+        }
+        .fc3{
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            left: 703px;
+            top: 212px;
+            animation: anm 5s linear forwards infinite;
+        }
+        .d3{
+            height: 300px;
+            width: 300px;
+        }
+        audio{
+            position: absolute;
+            left: 1036px;
+            top: 545px;
+        }
+        @keyframes anm{
+			 	from{}
+			 	to{
+					transform: rotateZ(360deg);
+				}
+			 }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="../html-day1/img/caodi.png" alt="" class="img1">
+        <div class="fc1">
+            <img src="../html-day1/img/fengche.png" class="d1">
+        </div>
+        <div class="fc2">
+            <img src="../html-day1/img/fengche.png" class="d2">
+        </div>
+        <div class="fc3">
+            <img src="../html-day1/img/fengche.png" class="d3">
+        </div>
+        <audio src="../html-day1/img/中央人民广播电台少年广播合唱团 - 大风车.mp3" controls="controls"></audio>
+    </div>
+</body>
+</html>

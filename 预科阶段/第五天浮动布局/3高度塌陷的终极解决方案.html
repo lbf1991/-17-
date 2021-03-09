@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            border: 2px solid rgb(202, 25, 25);
+        }
+
+        .son {
+            width: 100px;
+            height: 100px;
+            float: left;
+            border: 1px solid #000;
+        }
+
+        /* 使用伪元素解决父元素的高度塌陷问题 */
+        /* 伪元素:元素的特殊位置 */
+        /* 伪类:  元素的特殊的状态 */
+        /* after元素的内部的最后面  before 元素内部最前面 */
+        .clearfix::before,.clearfix::after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent clearfix">
+        <div class="son"></div>
+        <div class="son"></div>
+        <div class="son"></div>
+    </div>
+</body>
+
+</html>
